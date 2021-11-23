@@ -1,0 +1,53 @@
+FRUIT NINJA IDEAS
+-----------------
+1) Store w/ trails -> get points in-game, translate into store coins to get new trails (PlayerPrefs)
+	MORE AESTETIC STUFF
+	BACKGROUND, FRUIT SPRITES
+	TRAILS
+	POWER-UP OPTIONS- UPGRADING THEM ETC.
+2) Power up (charging) -> add fruits (take mutliple hits) to charge power up button
+	Player can choose power up
+		Explosion- knock bombs back/destroy bombs (particle systems)
+		Auto-kill- player moves on its own for a few seconds-> kills fruit on screen (MoveTowards, AI)
+	On Screen Button to activate powerup 
+3) (BORING) Add multi-hit fruit (takes lots of hits to kill fruit)
+4) (BORING) Fruits with different score values
+
+
+
+GENERAL STUFF TO ADD
+--------------------
+- MAIN MENU (FSM)
+	PLAY
+	STORE
+	(STATISTICS)
+	(OPTIONS) 
+	EXIT
+- GAME OVER SCREEN
+	SHOWS THE SCORE
+	TOTAL COINS EARNED
+	RESTART
+	MAIN MENU
+- MORE FRUIT VARIATION (DIFFERENT COLORS, OTHER FRUITS)
+	POWER-UP CHARGING
+	COIN FRUIT
+	GENERIC FRUITS- APPLE (GREEN, RED), ORANGE, PEAR ETC
+	BERRY- SMALLER FRUIT WITH EXTRA SCORE ATTACHED
+	BANANA- 
+- TUTORIAL MODE
+	FIRST TIME PLAYER ENCOUNTERS A SPECIAL FRUIT IT PAUSES AND TELLS THE USER ABOUT IT (PLAYER PREFS)
+- OPTIONS
+	TURN ON TUTORIAL MODE (AUTO DISABLES WHEN ENCOUNTERED ALL FRUIT VARIENTS)
+	RESET GAME DATA (WARNING!!, CLEARS PLAYER PREFS)
+	APPLY + EXIT BUTTONS
+- PLAYER STATS- 
+	(TOP 10?- DATE OF SCORE) HIGH SCORES
+	LIFETIME COINS
+	ENCOUNTERED FRUIT
+	DAYS SINCE LAST HIGH SCORE
+	ETC
+- FRUIT SPAWNING FROM DIFFERENT DIRECTIONS OVER TIME
+- REIMPLEMENT GENERIC GRAVITY/COLLIDER SYSTEM
+- FRUIT CHOP (IMAGE CHOP)- PARTICLE SYSTEM? 
+- COOL FONT
+
