@@ -16,6 +16,10 @@ public class MainMenuController : MonoBehaviour
     private MainMenuState currentState = MainMenuState.MAIN_MENU;
 
     public Animator mainMenuButtons;
+    public GameObject background;
+
+    public GameObject store;
+    
     void Awake()
     {
         mainMenuButtons.SetBool("isDisplay", true);
@@ -40,6 +44,9 @@ public class MainMenuController : MonoBehaviour
             // case MainMenuState.PLAY:
             //     break;
             case MainMenuState.STORE:
+                background.SetActive(true);
+                store.SetActive(false);
+                yield return new WaitForSeconds(0.1f);
                 break;
             case MainMenuState.CREDITS:
                 break;
@@ -56,6 +63,7 @@ public class MainMenuController : MonoBehaviour
         switch (currentState)
         {
             case MainMenuState.MAIN_MENU:
+                
                 mainMenuButtons.SetBool("isDisplay", true);
                 yield return new WaitUntil(() => (mainMenuButtons.GetCurrentAnimatorStateInfo(0).normalizedTime > 1));
                 break;
@@ -63,6 +71,8 @@ public class MainMenuController : MonoBehaviour
                 SceneManager.LoadScene("NinjaGame");
                 break;
             case MainMenuState.STORE:
+                background.SetActive(false);
+                store.SetActive(true);
                 break;
             case MainMenuState.CREDITS:
                 break;

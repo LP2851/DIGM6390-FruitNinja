@@ -5,12 +5,18 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Vector3 pos; //Position
-
-    public TrailRenderer trailRenderer;
     
+    public bool isTrailRenderer;
+    
+    private TrailRenderer trailRenderer;
+    private ParticleSystem partSystem;
     void Start ()
     {
-        trailRenderer = GetComponent<TrailRenderer>();
+        if (isTrailRenderer)
+            trailRenderer = GetComponent<TrailRenderer>();
+        else
+            partSystem = GetComponent<ParticleSystem>();
+        
         //Set screen orientation to landscape
         Screen.orientation = ScreenOrientation.Landscape;
         //Set sleep timeout to never
