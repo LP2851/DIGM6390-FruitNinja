@@ -10,8 +10,10 @@ public class StoreItem : ScriptableObject
 
     public bool playerHasBought, isHidden, isActiveTrail;
 
-    public TrailRenderer trail;
-    public ParticleSystem particleSystem;
+    // public TrailRenderer trail;
+    // public ParticleSystem particleSystem;
+
+    public GameObject trailOrParticleSystem;
 
     public void UnHide()
     {

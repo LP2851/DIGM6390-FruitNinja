@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9723e24a3980a8849bcded2db9b99750, type: 3}
-  m_Name: TrailExample
+  m_Name: Christmas Trail
   m_EditorClassIdentifier: 
-  name: Trail Example
-  code: example
-  price: 10
-  playerHasBought: 1
+  name: Christmas Trail
+  code: christmas_spiky_style
+  price: 10000
+  playerHasBought: 0
   isHidden: 0
   isActiveTrail: 0
-  trail: {fileID: 0}
-  particleSystem: {fileID: 0}
+  trailOrParticleSystem: {fileID: 2835765846325076711, guid: 0787213ce50977446a37b7350da764d1, type: 3}

@@ -10,7 +10,7 @@ public class StoreItemButton : MonoBehaviour
     
     public Text itemName, priceTag;
     public GameObject detailsDisplay;
-
+    public GameObject fakePlayer;
     //private Button thisButton;
     public Image background;
     private bool focused = false;
@@ -85,9 +85,13 @@ public class StoreItemButton : MonoBehaviour
         if(data.isActiveTrail) background.color = inUseColor; 
         
         // TODO Trail adding to fake player
-        
-        
-        
+        if (data.trailOrParticleSystem != null)
+        {
+            GameObject go = Instantiate(data.trailOrParticleSystem, transform.position, Quaternion.identity);
+            go.transform.SetParent(fakePlayer.transform);
+            go.transform.localPosition = Vector3.zero;
+        }
+
     }
 
     public void OnClick()

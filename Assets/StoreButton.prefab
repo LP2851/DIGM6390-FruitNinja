@@ -300,7 +300,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917729829557819907}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -585,6 +585,7 @@ MonoBehaviour:
   itemName: {fileID: 917729828728746586}
   priceTag: {fileID: 917729829533028175}
   detailsDisplay: {fileID: 917729828896741637}
+  fakePlayer: {fileID: 917729829557819907}
   background: {fileID: 917729829650298963}
   genericButtonColor: {r: 0.9339623, g: 0.47757846, b: 0.038768206, a: 0.5019608}
   inUseColor: {r: 0.23265842, g: 0.6509434, b: 0.06386612, a: 0.5019608}

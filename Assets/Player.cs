@@ -5,17 +5,11 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Vector3 pos; //Position
-    
-    public bool isTrailRenderer;
-    
-    private TrailRenderer trailRenderer;
-    private ParticleSystem partSystem;
+
+    public GameObject trail;
+
     void Start ()
     {
-        if (isTrailRenderer)
-            trailRenderer = GetComponent<TrailRenderer>();
-        else
-            partSystem = GetComponent<ParticleSystem>();
         
         //Set screen orientation to landscape
         Screen.orientation = ScreenOrientation.Landscape;

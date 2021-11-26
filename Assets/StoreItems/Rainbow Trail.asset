@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9723e24a3980a8849bcded2db9b99750, type: 3}
-  m_Name: DefaultTrail
+  m_Name: Rainbow Trail
   m_EditorClassIdentifier: 
-  name: Default Trail
-  code: default_trail
-  price: 0
-  playerHasBought: 1
+  name: Rainbow Trail
+  code: rainbow_default_style
+  price: 2500
+  playerHasBought: 0
   isHidden: 0
-  isActiveTrail: 1
-  trailOrParticleSystem: {fileID: 2101244328397815075, guid: f0bdf821f5982bc45b58fe192168620d, type: 3}
+  isActiveTrail: 0
+  trailOrParticleSystem: {fileID: 7287916809919139042, guid: 8706bd89c92e44a4aa19dfb17216a722, type: 3}
