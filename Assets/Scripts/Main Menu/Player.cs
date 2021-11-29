@@ -1,16 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent(typeof(PlayerDataImporter))]
 public class Player : MonoBehaviour
 {
     private Vector3 pos; //Position
-
-    public GameObject trail;
-
+    
+    
+    
     void Start ()
     {
-        
         //Set screen orientation to landscape
         Screen.orientation = ScreenOrientation.Landscape;
         //Set sleep timeout to never

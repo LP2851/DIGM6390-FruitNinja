@@ -5,13 +5,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Store Item", menuName = "In-Game Store/Store Item", order = 0)]
 public class StoreItem : ScriptableObject
 {
-    public string name, code;
+    public string itemName, code;
     public int price;
 
     public bool playerHasBought, isHidden, isActiveTrail;
-
-    // public TrailRenderer trail;
-    // public ParticleSystem particleSystem;
 
     public GameObject trailOrParticleSystem;
 
@@ -23,7 +20,12 @@ public class StoreItem : ScriptableObject
     public void Buy()
     {
         playerHasBought = true;
-        PlayerData.instance.BuyItem(code, price);
+        PlayerDataImporter.instance.BuyItem(code, price);
+    }
+
+    public void SetActive()
+    {
+        PlayerDataImporter.instance.ChangeTrailTo(this);
     }
 
 

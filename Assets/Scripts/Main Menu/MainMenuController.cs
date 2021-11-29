@@ -39,7 +39,9 @@ public class MainMenuController : MonoBehaviour
         {
             case MainMenuState.MAIN_MENU:
                 mainMenuButtons.SetBool("isDisplay", false);
-                yield return new WaitUntil(() => (mainMenuButtons.GetCurrentAnimatorStateInfo(0).normalizedTime > 1));
+                background.SetActive(false);
+                //yield return new WaitUntil(() => (mainMenuButtons.GetCurrentAnimatorStateInfo(0).normalizedTime > 1));
+                yield return new WaitForSeconds(0.8f);
                 break;
             // case MainMenuState.PLAY:
             //     break;

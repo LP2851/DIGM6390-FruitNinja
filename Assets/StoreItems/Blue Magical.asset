@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9723e24a3980a8849bcded2db9b99750, type: 3}
   m_Name: Blue Magical
   m_EditorClassIdentifier: 
-  name: Blue Magical Trail
+  itemName: Blue Magical Trail
   code: blue_magical_style
   price: 100000
   playerHasBought: 0

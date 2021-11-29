@@ -1,10 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HorizontalSwipeMenuController : MonoBehaviour
+public class StoreMenuController : MonoBehaviour
 {
     public Scrollbar scrollBar;
     private float scrollPosition = 0;
@@ -13,23 +14,33 @@ public class HorizontalSwipeMenuController : MonoBehaviour
     public float speed = 0.1f;
     public float smallScale = 0.8f;
 
-    public StoreItem[] storeItems;
+    private StoreItem[] storeItems;
     public GameObject storeItemButtonPrefab;
-    public Vector3 spawnPosition;
-    
-    void Start()
+    private Vector3 spawnPosition;
+
+    [SerializeField] private PlayerDataImporter playerDataImporter;
+
+    [SerializeField] private Text playerMoney;
+
+
+    void Awake()
     {
+        storeItems = StoreData.instance.storeItems;
         foreach (StoreItem item in storeItems)
         {
+            if (playerDataImporter.IsOwned(item)) item.playerHasBought = true;
             GameObject itemButton = Instantiate(storeItemButtonPrefab, spawnPosition, Quaternion.identity);
             itemButton.transform.SetParent(transform);
-            itemButton.GetComponent<StoreItemButton>().SetData(item);
+            StoreItemButton storeItemButton = itemButton.GetComponent<StoreItemButton>();
+            storeItemButton.SetData(item);
             itemButton.transform.localScale = storeItemButtonPrefab.transform.localScale;
         }
     }
     
     void Update()
     {
+        playerMoney.text = "" + PlayerDataImporter.instance.amountOfMoney;
+        
         buttonPositions = new float[transform.childCount];
         float distance = 1f / (buttonPositions.Length - 1);
         

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9723e24a3980a8849bcded2db9b99750, type: 3}
   m_Name: Monochrome Trail
   m_EditorClassIdentifier: 
-  name: Monochrome Trail
+  itemName: Monochrome Trail
   code: monochrome_default_style
   price: 2500
   playerHasBought: 0

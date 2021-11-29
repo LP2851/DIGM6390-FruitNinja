@@ -11,7 +11,6 @@ public class StoreItemButton : MonoBehaviour
     public Text itemName, priceTag;
     public GameObject detailsDisplay;
     public GameObject fakePlayer;
-    //private Button thisButton;
     public Image background;
     private bool focused = false;
 
@@ -21,8 +20,6 @@ public class StoreItemButton : MonoBehaviour
 
     void Start()
     {
-        //thisButton = GetComponent<Button>();
-        
         detailsDisplay.GetComponent<Animator>().SetBool("isDisplay", false);
     }
 
@@ -40,29 +37,18 @@ public class StoreItemButton : MonoBehaviour
     {
         if (isFocused == focused)
         {
-            // if (focused && detailsDisplay.GetComponent<Animator>().GetAnimatorTransitionInfo(0).normalizedTime > 1)
-            // {
-            //     itemName.enabled = true;
-            //     priceTag.enabled = true;
-            // }
             return;
         }
 
         focused = isFocused;
         
         detailsDisplay.GetComponent<Animator>().SetBool("isDisplay", isFocused);
-        
-        // if (!focused)
-        // {
-        //     itemName.enabled = false;
-        //     priceTag.enabled = false;
-        // }
-        
+
     }
     
     public void SetAsActiveTrail()
     {
-        PlayerData.instance.ChangeTrailTo(data);
+        data.SetActive();
         // Do Trail stuff
     }
 
@@ -70,7 +56,7 @@ public class StoreItemButton : MonoBehaviour
     {
         data = itemData;
         
-        itemName.text = data.name;
+        itemName.text = data.itemName;
 
         if (data.playerHasBought)
         {
@@ -105,7 +91,7 @@ public class StoreItemButton : MonoBehaviour
             recentlyClicked = true;
             Invoke(nameof(TurnOffRecentlyClicked), 2f);
             string text = "Price: $" + data.price;
-            if (PlayerData.instance.amountOfMoney < data.price)
+            if (PlayerDataImporter.instance.amountOfMoney < data.price)
             {
                 text += "\nCANNOT AFFORD THIS ITEM.";
             }
@@ -122,7 +108,7 @@ public class StoreItemButton : MonoBehaviour
         } 
         else if (recentlyClicked && !data.playerHasBought)
         {
-            if (PlayerData.instance.amountOfMoney >= data.price)
+            if (PlayerDataImporter.instance.amountOfMoney >= data.price)
             {
                 data.Buy();
                 priceTag.text = "OWNED";

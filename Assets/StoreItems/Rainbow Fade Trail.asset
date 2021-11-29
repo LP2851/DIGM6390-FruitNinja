@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9723e24a3980a8849bcded2db9b99750, type: 3}
   m_Name: Rainbow Fade Trail
   m_EditorClassIdentifier: 
-  name: Rainbow Fade Trail
+  itemName: Rainbow Fade Trail
   code: rainbow_fade_style
   price: 5000
   playerHasBought: 0

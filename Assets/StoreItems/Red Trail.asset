@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9723e24a3980a8849bcded2db9b99750, type: 3}
   m_Name: Red Trail
   m_EditorClassIdentifier: 
-  name: Red Trail
+  itemName: Red Trail
   code: red_default_style
   price: 1000
-  playerHasBought: 0
+  playerHasBought: 1
   isHidden: 0
   isActiveTrail: 0
   trailOrParticleSystem: {fileID: 7136702817816128020, guid: f65eb79b685640842af9871f62cacade, type: 3}
