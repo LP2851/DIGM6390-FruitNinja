@@ -18,7 +18,7 @@ public class PlayerDataImporter : MonoBehaviour
 
     public GameObject trail;
 
-    private void Awake()
+    private void Start()
     {
         instance = this;
         playerData = new PlayerData();

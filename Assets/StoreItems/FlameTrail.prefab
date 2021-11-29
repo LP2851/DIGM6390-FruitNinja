@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5935887285924060654}
   - component: {fileID: 5935887285924060655}
-  - component: {fileID: 5935887285924060649}
   - component: {fileID: 5713269796252850945}
   - component: {fileID: 5713269796252850950}
   m_Layer: 0
@@ -141,22 +140,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.01
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!58 &5935887285924060649
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5935887285924060653}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.15
 --- !u!198 &5713269796252850945
 ParticleSystem:
   m_ObjectHideFlags: 0
