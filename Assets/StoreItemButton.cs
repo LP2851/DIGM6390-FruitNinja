@@ -88,8 +88,10 @@ public class StoreItemButton : MonoBehaviour
         if (data.trailOrParticleSystem != null)
         {
             GameObject go = Instantiate(data.trailOrParticleSystem, transform.position, Quaternion.identity);
+            
             go.transform.SetParent(fakePlayer.transform);
             go.transform.localPosition = Vector3.zero;
+            
         }
 
     }

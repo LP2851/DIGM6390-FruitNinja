@@ -18,7 +18,7 @@ public class MainMenuController : MonoBehaviour
     public Animator mainMenuButtons;
     public GameObject background;
 
-    public GameObject store;
+    public GameObject store, options, credits;
     
     void Awake()
     {
@@ -44,13 +44,16 @@ public class MainMenuController : MonoBehaviour
             // case MainMenuState.PLAY:
             //     break;
             case MainMenuState.STORE:
-                background.SetActive(true);
                 store.SetActive(false);
                 yield return new WaitForSeconds(0.1f);
                 break;
             case MainMenuState.CREDITS:
+                credits.SetActive(false);
+                yield return new WaitForSeconds(0.1f);
                 break;
             case MainMenuState.OPTIONS: 
+                options.SetActive(false);
+                yield return new WaitForSeconds(0.1f);
                 break;
             // case MainMenuState.QUIT:
             //     break;
@@ -63,7 +66,7 @@ public class MainMenuController : MonoBehaviour
         switch (currentState)
         {
             case MainMenuState.MAIN_MENU:
-                
+                background.SetActive(true);
                 mainMenuButtons.SetBool("isDisplay", true);
                 yield return new WaitUntil(() => (mainMenuButtons.GetCurrentAnimatorStateInfo(0).normalizedTime > 1));
                 break;
@@ -71,17 +74,19 @@ public class MainMenuController : MonoBehaviour
                 SceneManager.LoadScene("NinjaGame");
                 break;
             case MainMenuState.STORE:
-                background.SetActive(false);
                 store.SetActive(true);
                 break;
             case MainMenuState.CREDITS:
+                credits.SetActive(true);
                 break;
             case MainMenuState.OPTIONS: 
+                options.SetActive(true);
                 break;
             case MainMenuState.QUIT:
-                Debug.Log("[MainMenuController] :: The game would have ended.");
 #if !UNITY_EDITOR
                 Application.Quit();
+#else 
+                Debug.Log("[MainMenuController] :: The game would have ended.");
 #endif
                 break;
         }

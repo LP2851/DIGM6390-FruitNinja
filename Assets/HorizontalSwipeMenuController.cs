@@ -16,19 +16,17 @@ public class HorizontalSwipeMenuController : MonoBehaviour
     public StoreItem[] storeItems;
     public GameObject storeItemButtonPrefab;
     public Vector3 spawnPosition;
-
+    
     void Start()
     {
         foreach (StoreItem item in storeItems)
         {
             GameObject itemButton = Instantiate(storeItemButtonPrefab, spawnPosition, Quaternion.identity);
             itemButton.transform.SetParent(transform);
-            //itemButton.transform.parent = transform;
             itemButton.GetComponent<StoreItemButton>().SetData(item);
             itemButton.transform.localScale = storeItemButtonPrefab.transform.localScale;
         }
     }
-    
     
     void Update()
     {
