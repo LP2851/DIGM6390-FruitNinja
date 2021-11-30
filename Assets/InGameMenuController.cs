@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,20 +7,34 @@ using UnityEngine.UI;
 
 public class InGameMenuController : MonoBehaviour
 {
-    [SerializeField]
+    [Serializable]
     enum MenuState
     {
         PLAYING, OVER
     }
 
     [SerializeField] private MenuState currentState = MenuState.PLAYING;
-    [SerializeField] private GameObject gameOverScreen;
+    
+    [Space, SerializeField] private GameObject gameOverScreen;
     [SerializeField] private Text playerScoreText, highScoreText, coinsEarnedText, playerCoinsText;
-    [SerializeField, Range(0f, 1f)] private float scoreToCoinsMultiplier = 0.1f;
+    
+    [Space, SerializeField, Range(0f, 1f)] private float scoreToCoinsMultiplier = 0.1f;
+
+    [Space, SerializeField] private NinjaPlayer player;
+
+    [ContextMenu("End Game")]
+    private void EndGame()
+    {
+        ChangeState(false);
+    }
 
     public void ChangeState(bool isPlaying)
     {
-        currentState = (isPlaying) ? MenuState.PLAYING : MenuState.OVER;
+        
+        MenuState nextState = (isPlaying) ? MenuState.PLAYING : MenuState.OVER;
+
+        if (nextState == currentState) return;
+        currentState = nextState;
         switch (currentState)
         {
             case MenuState.PLAYING:
@@ -67,8 +82,7 @@ public class InGameMenuController : MonoBehaviour
 
     int GetGameScore()
     {
-        return 0;
-        // return player.score???
+        return player.GetScore();
     }
     
 }

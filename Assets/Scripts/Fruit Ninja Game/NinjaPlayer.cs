@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,9 +10,14 @@ public class NinjaPlayer : MonoBehaviour
     [SerializeField]
     private Vector3 pos; //Position
 
+    [SerializeField] private InGameMenuController menuController;
+    [SerializeField] private GameObject spawner;
+
     private int score = 0;
 
     public int streak = 1;
+
+    public int playerLives = 3;
 
     public Text text;
     void Start ()
@@ -23,6 +29,13 @@ public class NinjaPlayer : MonoBehaviour
         ChangeText();
     }
     void Update () {
+        if (playerLives <= 0)
+        {
+            menuController.ChangeState(false); 
+            spawner.SetActive(false);
+            
+        }
+        
         //If the game is running on an iPhone device
         if (Application.platform == RuntimePlatform.IPhonePlayer)
         {
@@ -51,19 +64,26 @@ public class NinjaPlayer : MonoBehaviour
         }
     }
     
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Fruit")
-        {
-            //write your code here
-            other.GetComponent<Fruit2D>().Hit();
-            Score(true);
-        } else if (other.tag == "Enemy")
-        {
-            other.GetComponent<Fruit2D>().Hit();
-            Score(false);
-        }
-    }
+    // void OnTriggerEnter2D(Collider2D other)
+    // {
+    //     if (other.tag == "Fruit")
+    //     {
+    //         //write your code here
+    //         other.GetComponent<Fruit2D>().Hit();
+    //         Score(true);
+    //     } else if (other.tag == "Enemy")
+    //     {
+    //         other.GetComponent<Fruit2D>().Hit();
+    //         Score(false);
+    //         playerLives--;
+    //         if (playerLives == 0)
+    //         {
+    //             menuController.ChangeState(false);
+    //             spawner.SetActive(false);
+    //         }
+    //             
+    //     }
+    // }
 
 
     public void Score(bool isFruit)
@@ -93,5 +113,10 @@ public class NinjaPlayer : MonoBehaviour
     private void ChangeText()
     {
         text.text = "Score: " + score + "\nStreak: " + streak;
+    }
+
+    public int GetScore()
+    {
+        return score;
     }
 }

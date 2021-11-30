@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
     private Vector3 pos; //Position
     
     
-    
     void Start ()
     {
         //Set screen orientation to landscape

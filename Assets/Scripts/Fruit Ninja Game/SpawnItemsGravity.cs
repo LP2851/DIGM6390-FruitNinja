@@ -13,7 +13,7 @@ public class SpawnItemsGravity : MonoBehaviour
 
     public float sizeDecreaseStep = 0.05f;
     public float minSize = 0.5f;
-    
+
     void Start()
     {
         //Start the spawn update
@@ -30,19 +30,22 @@ public class SpawnItemsGravity : MonoBehaviour
         {
             //Spawn prefab is bomb
             //you code here later in task 4
-            //prefab = bomb;
+            prefab = bomb;
 
         }
         //Spawn prefab add random position
         GameObject go = Instantiate(prefab,new Vector3(Random.Range(minX
             ,maxX + 1),transform.position.y, 3f),Quaternion.Euler(0,0, Random.Range (-
             90F, 90F))) as GameObject;
-        
-        float streak = GameObject.FindWithTag("Player").GetComponent<NinjaPlayer>().streak;
-        float size = (1.0f - (streak * sizeDecreaseStep));
-        size = (size < minSize) ? minSize : size;
-        go.transform.localScale = new Vector3(size, size, size);
+        if (go.GetComponent<Fruit2D>().canResize)
+        {
+            float streak = GameObject.FindWithTag("Player").GetComponent<NinjaPlayer>().streak;
+            float size = (1.0f - ((streak-1) * sizeDecreaseStep));
+            size = (size < minSize) ? minSize : size;
+            go.transform.localScale = new Vector3(size, size, size);
 
+        }
+        
         //If x position is over 0 go left
         if (go.transform.position.x > 0)
         {

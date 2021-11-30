@@ -26,7 +26,7 @@ public class Gravity : MonoBehaviour
         colliderRadius *= transform.localScale.x;
     }
     
-    void LateUpdate() {
+    void FixedUpdate() {
         ApplyForce(gravity);
         UpdatePosition();
         CheckCollisions();
