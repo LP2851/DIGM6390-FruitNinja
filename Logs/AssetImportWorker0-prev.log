@@ -15,11 +15,11 @@ E:/games project test/fruitytest/DIGM6390-FruitNinja/DIGM6390-FruitNinja
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52730
+59466
 Successfully changed project path to: E:/games project test/fruitytest/DIGM6390-FruitNinja/DIGM6390-FruitNinja
 E:/games project test/fruitytest/DIGM6390-FruitNinja/DIGM6390-FruitNinja
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004093 seconds.
+Registered in 0.003586 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.912 seconds
+- Completed reload, in  1.354 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1912ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1354ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (750ms)
-			LoadAssemblies (102ms)
+		EndReloadAssembly (500ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (260ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004424 seconds.
+Registered in 0.003509 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.728 seconds
+- Completed reload, in  1.492 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1729ms)
-		BeginReloadAssembly (247ms)
+	ReloadAssembly (1494ms)
+		BeginReloadAssembly (196ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1371ms)
-			LoadAssemblies (172ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1217ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (477ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (487ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (486ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (367ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (366ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.3 MB.
-System memory in use after: 65.3 MB.
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1848.
-Total: 4.402800 ms (FindLiveObjects: 0.240800 ms CreateObjectMapping: 0.195400 ms MarkObjects: 3.871700 ms  DeleteObjects: 0.093100 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 3.336200 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.081600 ms MarkObjects: 2.817400 ms  DeleteObjects: 0.072600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,62 +134,72 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scenes/MainMenu.unity
   artifactKey: Guid(a4158b609991cbe44944ae81046c1b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(a4158b609991cbe44944ae81046c1b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c8dea51c6f1f5021d57a7fb30f035f') in 0.029805 seconds 
-  Import took 0.034343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(b8f3b01f47e3322489f323e96db6efb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(b8f3b01f47e3322489f323e96db6efb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc3fbc7428f9cc80e52e24dcc150874') in 0.018247 seconds 
-  Import took 0.021345 seconds .
+Start importing Assets/Scenes/MainMenu.unity using Guid(a4158b609991cbe44944ae81046c1b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0994507d252e81692f48d324af94a832') in 0.019111 seconds 
+  Import took 0.053114 seconds .
 
 ========================================================================
 Received Prepare
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
 Registering precompiled user dll's ...
-Registered in 0.004891 seconds.
+Registered in 0.007811 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.697 seconds
+- Completed reload, in  1.161 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1698ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (1162ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1402ms)
-			LoadAssemblies (161ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (956ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (527ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (453ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (342ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
 System memory in use after: 65.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1850.
-Total: 4.326600 ms (FindLiveObjects: 0.198000 ms CreateObjectMapping: 0.072500 ms MarkObjects: 4.027000 ms  DeleteObjects: 0.027300 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1838.
+Total: 3.473600 ms (FindLiveObjects: 0.200000 ms CreateObjectMapping: 0.068300 ms MarkObjects: 3.169300 ms  DeleteObjects: 0.034800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -203,58 +213,164 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 485.498772 seconds.
-  path: Assets/Imports/Gochi Hand Font/GochiHand-Regular.ttf
-  artifactKey: Guid(2866c975b0b9be048bde96431d2f5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Gochi Hand Font/GochiHand-Regular.ttf using Guid(2866c975b0b9be048bde96431d2f5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bd49f6d37c7e0718edfbca933ce50c') in 0.218215 seconds 
-  Import took 0.223429 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007039 seconds.
+Registered in 0.003102 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
+- Completed reload, in  2.599 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1045ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (2600ms)
+		BeginReloadAssembly (306ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1637ms)
+			LoadAssemblies (412ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
+			SetupTypeCache (644ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (224ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 5.004800 ms (FindLiveObjects: 0.277700 ms CreateObjectMapping: 0.092500 ms MarkObjects: 4.266200 ms  DeleteObjects: 0.366700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.362 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1363ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1105ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (272ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1856.
+Total: 3.110700 ms (FindLiveObjects: 0.157800 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.864000 ms  DeleteObjects: 0.031700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1308ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1058ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.5 MB.
-System memory in use after: 68.6 MB.
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1896.
-Total: 4.119500 ms (FindLiveObjects: 0.138500 ms CreateObjectMapping: 0.044200 ms MarkObjects: 3.898200 ms  DeleteObjects: 0.036600 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1858.
+Total: 2.918300 ms (FindLiveObjects: 0.150400 ms CreateObjectMapping: 0.047800 ms MarkObjects: 2.698900 ms  DeleteObjects: 0.019700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -270,48 +386,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007414 seconds.
+Registered in 0.004444 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.707 seconds
+- Completed reload, in  1.206 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1708ms)
-		BeginReloadAssembly (189ms)
+	ReloadAssembly (1206ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1384ms)
-			LoadAssemblies (175ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (989ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (573ms)
+			SetupTypeCache (373ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (366ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.5 MB.
-System memory in use after: 68.7 MB.
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1898.
-Total: 3.138200 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.068800 ms MarkObjects: 2.850000 ms  DeleteObjects: 0.018600 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+Total: 3.081600 ms (FindLiveObjects: 0.129400 ms CreateObjectMapping: 0.043300 ms MarkObjects: 2.860100 ms  DeleteObjects: 0.047300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -326,210 +442,2201 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1567.351805 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(765bd674d0b41374a8d7ab4bfc06df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(765bd674d0b41374a8d7ab4bfc06df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d098ff8bb5edcb23340aa1e1e87ecd7') in 0.016207 seconds 
-  Import took 0.051297 seconds .
+  Time since last request: 1756.864876 seconds.
+  path: Assets/Imports/LowPolyFruit
+  artifactKey: Guid(44d1219f5f4f9234f8388fd5fcd79398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit using Guid(44d1219f5f4f9234f8388fd5fcd79398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c571b706c024a19103707c302b221d4a') in 0.021070 seconds 
+  Import took 0.025561 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.050372 seconds.
-  path: Assets/Sprites/Apple.png
-  artifactKey: Guid(87bc0070c93c7664da6281ac1a11a4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Apple.png using Guid(87bc0070c93c7664da6281ac1a11a4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a238e9583dfde4578dbdac86f351efad') in 0.088450 seconds 
-  Import took 0.091762 seconds .
+  Time since last request: 114.545606 seconds.
+  path: Assets/Imports/LowPolyFruit/applered01.fbx
+  artifactKey: Guid(12290e1e092b58c4f86d771d5dd8a346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered01.fbx using Guid(12290e1e092b58c4f86d771d5dd8a346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218b5904e633710fad09855f3a29e34c') in 0.645789 seconds 
+  Import took 0.653769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Imports/LowPolyFruit/corn05.fbx
+  artifactKey: Guid(3361a7a05505a2844b8fa69fcdfe9290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn05.fbx using Guid(3361a7a05505a2844b8fa69fcdfe9290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33517a6fe4d38d06436ad75f42a4b6fe') in 0.035108 seconds 
+  Import took 0.039410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Imports/LowPolyFruit/aubergine02.fbx
+  artifactKey: Guid(566c6c202e63fb7408c8796b798a04fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/aubergine02.fbx using Guid(566c6c202e63fb7408c8796b798a04fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da979403aab0e4cc908d50a988fc7fa6') in 0.063003 seconds 
+  Import took 0.069337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Imports/LowPolyFruit/corn03.fbx
+  artifactKey: Guid(a563b3d5e0a3d9342831c43f291addb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn03.fbx using Guid(a563b3d5e0a3d9342831c43f291addb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569db008986666d8754d942c07962d1a') in 0.053515 seconds 
+  Import took 0.064426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Imports/LowPolyFruit/beetroot03.fbx
+  artifactKey: Guid(8737fb7b483ae4c43b8a6ff9f28bd6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beetroot03.fbx using Guid(8737fb7b483ae4c43b8a6ff9f28bd6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e198b89b67d5cb61c492b51378a3d50') in 0.033996 seconds 
+  Import took 0.037058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Imports/LowPolyFruit/basil01.fbx
+  artifactKey: Guid(e68764c76bd0ee2449a1ecd7fe16fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/basil01.fbx using Guid(e68764c76bd0ee2449a1ecd7fe16fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842b36b65ff5f5c1c9f4b87154983639') in 0.025135 seconds 
+  Import took 0.028067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Imports/LowPolyFruit/applered02.fbx
+  artifactKey: Guid(bc5e7d7de25336b4b99893e0fbab3529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered02.fbx using Guid(bc5e7d7de25336b4b99893e0fbab3529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d519ed17b7e52dde7674e17cdd9f732') in 0.025363 seconds 
+  Import took 0.028185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Imports/LowPolyFruit/corn04.fbx
+  artifactKey: Guid(c0b8b0a26af05be41817abac11d4f872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn04.fbx using Guid(c0b8b0a26af05be41817abac11d4f872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960958cf4c79b61d891166a74d2fa30d') in 0.024718 seconds 
+  Import took 0.027829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Imports/LowPolyFruit/cucumber03.fbx
+  artifactKey: Guid(af4ac0f3753026540b72e814944ef66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cucumber03.fbx using Guid(af4ac0f3753026540b72e814944ef66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd626f0197def8ba3e428c3e205e2c948') in 0.033423 seconds 
+  Import took 0.038760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Imports/LowPolyFruit/buttersquash01.fbx
+  artifactKey: Guid(f6b0a6abac7352e47a658c6459d6d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/buttersquash01.fbx using Guid(f6b0a6abac7352e47a658c6459d6d1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad93416f4e60fbf60572c2103b8604e') in 0.039707 seconds 
+  Import took 0.043041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Imports/LowPolyFruit/cherry01.fbx
+  artifactKey: Guid(1bf2d48ba264143499ab83a516a4fa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cherry01.fbx using Guid(1bf2d48ba264143499ab83a516a4fa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111b0eda25d1f48e01d83788517effdf') in 0.026293 seconds 
+  Import took 0.030429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Imports/LowPolyFruit/broccoli01.fbx
+  artifactKey: Guid(dc94f7bf48e23914c97a08f93144e4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/broccoli01.fbx using Guid(dc94f7bf48e23914c97a08f93144e4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c75e22f77145f421cfb5b1f4707f59') in 0.028571 seconds 
+  Import took 0.031096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Imports/LowPolyFruit/clementine02.fbx
+  artifactKey: Guid(366ac62c3760efc4cbe5c1ebb6868a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/clementine02.fbx using Guid(366ac62c3760efc4cbe5c1ebb6868a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ba63dbe0c02b02fd3db6ae3b97cd11') in 0.028620 seconds 
+  Import took 0.084127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010689 seconds.
+  path: Assets/Imports/LowPolyFruit/fig01.fbx
+  artifactKey: Guid(a737922897e02194c99d5c9a2a472b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/fig01.fbx using Guid(a737922897e02194c99d5c9a2a472b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd51364b06b0584e938ff3e2242d3f2e') in 0.149811 seconds 
+  Import took 0.155299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000723 seconds.
+  path: Assets/Imports/LowPolyFruit/chestnut01.fbx
+  artifactKey: Guid(83ebf06f01ec73c4f8011aa0d672589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chestnut01.fbx using Guid(83ebf06f01ec73c4f8011aa0d672589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a0e4fa7aeec69dbc018b0aae516da6') in 0.065191 seconds 
+  Import took 0.079764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Imports/LowPolyFruit/coconut03.fbx
+  artifactKey: Guid(27de1184e89bb034aa66a47423702aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/coconut03.fbx using Guid(27de1184e89bb034aa66a47423702aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34598592e832fc832338f5fdfee924e0') in 0.062755 seconds 
+  Import took 0.067743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Imports/LowPolyFruit/asparagus01.fbx
+  artifactKey: Guid(e13f1f6877d1c684f8c038eadf01a3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/asparagus01.fbx using Guid(e13f1f6877d1c684f8c038eadf01a3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecc122a53d27c5e9ce38031ed694c59') in 0.041161 seconds 
+  Import took 0.044149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Imports/LowPolyFruit/banana01.fbx
+  artifactKey: Guid(164f1af06a4ff9b429e78dea8df9a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/banana01.fbx using Guid(164f1af06a4ff9b429e78dea8df9a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc3a6025d96f96d65dccd6ef0a68c32') in 0.037921 seconds 
+  Import took 0.046135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001444 seconds.
+  path: Assets/Imports/LowPolyFruit/basil02.fbx
+  artifactKey: Guid(529f8f7bf62e15d459c22724ff4be8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/basil02.fbx using Guid(529f8f7bf62e15d459c22724ff4be8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789f04c8bc314432dd4ba0f103570652') in 0.047382 seconds 
+  Import took 0.052053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Imports/LowPolyFruit/garlic02.fbx
+  artifactKey: Guid(5a3dbc8b9985a5b4b911e6dd9d591ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/garlic02.fbx using Guid(5a3dbc8b9985a5b4b911e6dd9d591ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221259c8ae69f215b8f5e1e689e306a3') in 0.034030 seconds 
+  Import took 0.037533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Imports/LowPolyFruit/chives03.fbx
+  artifactKey: Guid(539de92a42d07694c80e427bed23f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chives03.fbx using Guid(539de92a42d07694c80e427bed23f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909dbbbe4c9f14eecd29046109fdeca6') in 0.033472 seconds 
+  Import took 0.036010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Imports/LowPolyFruit/avocado02.fbx
+  artifactKey: Guid(cb0e41488ff6b4347971f93027cd4b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/avocado02.fbx using Guid(cb0e41488ff6b4347971f93027cd4b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3c98eb5df39379dd0f13c71727d461') in 0.046289 seconds 
+  Import took 0.049904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Imports/LowPolyFruit/corn02.fbx
+  artifactKey: Guid(53e56a51ac4a7864ea69ff8f784bfc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn02.fbx using Guid(53e56a51ac4a7864ea69ff8f784bfc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8eef71f3bbff1d0711c8030a377262b') in 0.036566 seconds 
+  Import took 0.044869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Imports/LowPolyFruit/chives02.fbx
+  artifactKey: Guid(f9fd1cd4fde01fa4391d5ab75ce40688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chives02.fbx using Guid(f9fd1cd4fde01fa4391d5ab75ce40688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9b888b41baebd4764ab1bbbd048ba2') in 0.029136 seconds 
+  Import took 0.032445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Imports/LowPolyFruit/applered03.fbx
+  artifactKey: Guid(60058732c2bfe1f43be7891e28c914b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered03.fbx using Guid(60058732c2bfe1f43be7891e28c914b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95063c221598aaa03a29b7d193b31f8') in 0.028068 seconds 
+  Import took 0.032023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Imports/LowPolyFruit/cabbage01.fbx
+  artifactKey: Guid(9cc76ae6269cbec4c91d2bdc28e70901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cabbage01.fbx using Guid(9cc76ae6269cbec4c91d2bdc28e70901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b6acd1a210237589650afa43aa8aa2') in 0.028409 seconds 
+  Import took 0.032610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Imports/LowPolyFruit/garlic01.fbx
+  artifactKey: Guid(762312a0e549dab48a076554073c61bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/garlic01.fbx using Guid(762312a0e549dab48a076554073c61bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa81537871790a2dc5e40cdba62451c') in 0.036921 seconds 
+  Import took 0.044084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Imports/LowPolyFruit/banana02.fbx
+  artifactKey: Guid(a9c8fff7afed8db41aee5f353092e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/banana02.fbx using Guid(a9c8fff7afed8db41aee5f353092e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044fc4bede1e57f143000109c657b10b') in 0.051057 seconds 
+  Import took 0.054923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Imports/LowPolyFruit/blueberry01.fbx
+  artifactKey: Guid(186aa85b8d8748e469e53ad3dcbf7ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/blueberry01.fbx using Guid(186aa85b8d8748e469e53ad3dcbf7ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3746374a4b2ab5b942fa14f06a7d0f8a') in 0.030283 seconds 
+  Import took 0.034905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Imports/LowPolyFruit/beetroot02.fbx
+  artifactKey: Guid(207c3f3cf47ce21448aa7d7d4c8c8181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beetroot02.fbx using Guid(207c3f3cf47ce21448aa7d7d4c8c8181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1147af38c45dda904ec4cd73dba2c1d') in 0.027709 seconds 
+  Import took 0.030783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Imports/LowPolyFruit/carrot01.fbx
+  artifactKey: Guid(8bdf100233d7c8447aff928c844aefdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/carrot01.fbx using Guid(8bdf100233d7c8447aff928c844aefdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb06a4ffacc6cf139e730eb1bd94454') in 0.029824 seconds 
+  Import took 0.033753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Imports/LowPolyFruit/chives04.fbx
+  artifactKey: Guid(71429d9fc7a9a144fa75f57b578b7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chives04.fbx using Guid(71429d9fc7a9a144fa75f57b578b7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c00ebcb68aa7f18bbd42f8bf3b00519') in 0.036516 seconds 
+  Import took 0.043207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Imports/LowPolyFruit/coconut02.fbx
+  artifactKey: Guid(2f0fd1027ec1b9349830245ab5a30d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/coconut02.fbx using Guid(2f0fd1027ec1b9349830245ab5a30d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4a019eb91320761b40504c992c4096') in 0.043518 seconds 
+  Import took 0.049766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Imports/LowPolyFruit/cabbage03.fbx
+  artifactKey: Guid(2efad367b73575346bd0ba25a42f723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cabbage03.fbx using Guid(2efad367b73575346bd0ba25a42f723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ca11339ef910fc666fdd7d99c29044') in 0.042439 seconds 
+  Import took 0.047358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/Imports/LowPolyFruit/banana03.fbx
+  artifactKey: Guid(e6c5d70349ebe9647b9b251724f28711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/banana03.fbx using Guid(e6c5d70349ebe9647b9b251724f28711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6fab9ea4809eb68d781a1d67372ac0') in 0.025293 seconds 
+  Import took 0.029327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Imports/LowPolyFruit/corn06.fbx
+  artifactKey: Guid(36a7a078926a5ad499aa455d2a4993fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn06.fbx using Guid(36a7a078926a5ad499aa455d2a4993fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8248308eb67b9d5ee60cacf007196d') in 0.035056 seconds 
+  Import took 0.040355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Imports/LowPolyFruit/chives01.fbx
+  artifactKey: Guid(0b76e4888215156499476788cad6a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chives01.fbx using Guid(0b76e4888215156499476788cad6a27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24510e631bcab1c379d0d84270fe3df8') in 0.036425 seconds 
+  Import took 0.040901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Imports/LowPolyFruit/beetroot01.fbx
+  artifactKey: Guid(41106e83560c68b429db6618f88d45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beetroot01.fbx using Guid(41106e83560c68b429db6618f88d45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53bc2aeea97d6c513e121189d2bd37c') in 0.027725 seconds 
+  Import took 0.030276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Imports/LowPolyFruit/coconut01.fbx
+  artifactKey: Guid(b37e227882ca2c74984389bfcf48a413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/coconut01.fbx using Guid(b37e227882ca2c74984389bfcf48a413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a2a3cec5075d22bb446d693c78ebd5') in 0.037712 seconds 
+  Import took 0.042151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Imports/LowPolyFruit/buttersquash02.fbx
+  artifactKey: Guid(f7a26ce0e4d4dfc419503748bc005292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/buttersquash02.fbx using Guid(f7a26ce0e4d4dfc419503748bc005292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff819366d9bcfa1c9857d6087ec7822') in 0.025399 seconds 
+  Import took 0.028834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/Imports/LowPolyFruit/clementine03.fbx
+  artifactKey: Guid(c6058d171e4839f42bea039b2dccd832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/clementine03.fbx using Guid(c6058d171e4839f42bea039b2dccd832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5a056947d3e3f3564623f7fdd6c0c8') in 0.035640 seconds 
+  Import took 0.042696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Imports/LowPolyFruit/carrot02.fbx
+  artifactKey: Guid(4a5be626283fbcd49849fdb7eb702593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/carrot02.fbx using Guid(4a5be626283fbcd49849fdb7eb702593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50e85dac30d92d320bd5eed5d0b1e9e') in 0.036112 seconds 
+  Import took 0.042704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Imports/LowPolyFruit/beetroot04.fbx
+  artifactKey: Guid(52283653e01bc7d45ad99358ac01c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beetroot04.fbx using Guid(52283653e01bc7d45ad99358ac01c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c98263f20d9c15a4af76468c344116') in 0.035430 seconds 
+  Import took 0.038638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Imports/LowPolyFruit/cucumber01.fbx
+  artifactKey: Guid(52be33d4b99ea90468fd7a8601bfb6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cucumber01.fbx using Guid(52be33d4b99ea90468fd7a8601bfb6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c1a93727b72a27032beccd75e1386b') in 0.028521 seconds 
+  Import took 0.031204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Imports/LowPolyFruit/corn01.fbx
+  artifactKey: Guid(23ddfb875b11b1742bcc6e555906473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn01.fbx using Guid(23ddfb875b11b1742bcc6e555906473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34188e7db47c9057bfb6648aba5965e7') in 0.027567 seconds 
+  Import took 0.031298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Imports/LowPolyFruit/cabbage02.fbx
+  artifactKey: Guid(3f216c8354af49a4d9114ceb4689a777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cabbage02.fbx using Guid(3f216c8354af49a4d9114ceb4689a777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f3b879c166f278cbe67fddf1fbdd74') in 0.035539 seconds 
+  Import took 0.039205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Imports/LowPolyFruit/cauliflower01.fbx
+  artifactKey: Guid(ca02807d813c03740be5f28957250b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cauliflower01.fbx using Guid(ca02807d813c03740be5f28957250b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dc99fd176767caf29f62f2b32a2f37') in 0.053838 seconds 
+  Import took 0.059880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/Imports/LowPolyFruit/broccoli02.fbx
+  artifactKey: Guid(dee314147868cd8498ad1a15b16eda06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/broccoli02.fbx using Guid(dee314147868cd8498ad1a15b16eda06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da434118bd11792d89b22ec33b71bb') in 0.032537 seconds 
+  Import took 0.036157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Imports/LowPolyFruit/avocado01.fbx
+  artifactKey: Guid(98bb663f5e31ded4ebcfe91f27fa8231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/avocado01.fbx using Guid(98bb663f5e31ded4ebcfe91f27fa8231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b86f209d7b5cb7db57bf7b8125a1260') in 0.030958 seconds 
+  Import took 0.034482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Imports/LowPolyFruit/aubergine01.fbx
+  artifactKey: Guid(6d86d0e2123edc94b853a8ce1c2ebcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/aubergine01.fbx using Guid(6d86d0e2123edc94b853a8ce1c2ebcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb56284e97971898e7a8562ed3c645f5') in 0.026278 seconds 
+  Import took 0.028839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Imports/LowPolyFruit/clementine01.fbx
+  artifactKey: Guid(bb5a1c66b94a1ed4a910d9c8a77e3732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/clementine01.fbx using Guid(bb5a1c66b94a1ed4a910d9c8a77e3732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ca13587efbf2a0f0250cce6c0896ec') in 0.025046 seconds 
+  Import took 0.029366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Imports/LowPolyFruit/cucumber02.fbx
+  artifactKey: Guid(3fee75e0783e8174f9401eb6f35a5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cucumber02.fbx using Guid(3fee75e0783e8174f9401eb6f35a5d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dde9a1fa05e76d61debd145249958e') in 0.033067 seconds 
+  Import took 0.035651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Imports/LowPolyFruit/cherry03.fbx
+  artifactKey: Guid(00299bc655a4ecf44a1ea3595cae547d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cherry03.fbx using Guid(00299bc655a4ecf44a1ea3595cae547d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0f94ef54cefffbe859818941875e7f') in 0.034465 seconds 
+  Import took 0.038018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Imports/LowPolyFruit/banana04.fbx
+  artifactKey: Guid(85785d78670b1ec46af051f01fb99939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/banana04.fbx using Guid(85785d78670b1ec46af051f01fb99939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e30a9a66cb86524dd5f366a8ecc4833') in 0.027897 seconds 
+  Import took 0.031131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Imports/LowPolyFruit/cherry02.fbx
+  artifactKey: Guid(1f83732f533c1964ebdda11922a05ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cherry02.fbx using Guid(1f83732f533c1964ebdda11922a05ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283816dd83ab8ab1c1be038195e91e80') in 0.028028 seconds 
+  Import took 0.032278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Imports/LowPolyFruit/beanbeads01.fbx
+  artifactKey: Guid(157357c9f2442bc4ca4b15217a234e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beanbeads01.fbx using Guid(157357c9f2442bc4ca4b15217a234e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9612c76f6fbce1ccf276df3e91de0f9') in 0.038011 seconds 
+  Import took 0.043975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Imports/LowPolyFruit/bean01.fbx
+  artifactKey: Guid(e242d719be5899e479bf68d106f43f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/bean01.fbx using Guid(e242d719be5899e479bf68d106f43f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62871ef317aebdc6165f1d594283eb7') in 0.057988 seconds 
+  Import took 0.061261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.681566 seconds.
+  path: Assets/Imports/LowPolyFruit/ginger01.fbx
+  artifactKey: Guid(facec2e0d42d60d44963e0ad4df51d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/ginger01.fbx using Guid(facec2e0d42d60d44963e0ad4df51d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663961ed58128a2781e5c5cd874f6b94') in 0.036541 seconds 
+  Import took 0.041509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Imports/LowPolyFruit/lime01.fbx
+  artifactKey: Guid(86f231cf280f2964e80a3f76517bdf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lime01.fbx using Guid(86f231cf280f2964e80a3f76517bdf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ae67696fe7dc5ac0ac3674b1e155d8') in 0.031664 seconds 
+  Import took 0.036106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Imports/LowPolyFruit/kiwi02.fbx
+  artifactKey: Guid(98780b25da040fe479951de49ea6a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/kiwi02.fbx using Guid(98780b25da040fe479951de49ea6a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c5c3c7364e68e7c237abfa9a5ed237') in 0.031246 seconds 
+  Import took 0.035222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Imports/LowPolyFruit/parsley01.fbx
+  artifactKey: Guid(b7b96d51709120042bb67df7e2b32dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/parsley01.fbx using Guid(b7b96d51709120042bb67df7e2b32dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcdbf8526457d121a4a0994fbb20fc6') in 0.037885 seconds 
+  Import took 0.040509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Imports/LowPolyFruit/radish03.fbx
+  artifactKey: Guid(9032cdb73d6b4724ab804ea003feaac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/radish03.fbx using Guid(9032cdb73d6b4724ab804ea003feaac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a247c6c6083f8be1df30b1a82bbef1') in 0.033967 seconds 
+  Import took 0.038123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Imports/LowPolyFruit/onion08.fbx
+  artifactKey: Guid(75bf720522858454386b82093230c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion08.fbx using Guid(75bf720522858454386b82093230c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2956a783c4021b78f1aeb84945bc551') in 0.036413 seconds 
+  Import took 0.039969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Imports/LowPolyFruit/potato01.fbx
+  artifactKey: Guid(2047083ac9de783468d7378060962cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/potato01.fbx using Guid(2047083ac9de783468d7378060962cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9013726b1459498338298cf8512d5d') in 0.030416 seconds 
+  Import took 0.038003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Imports/LowPolyFruit/leek03.fbx
+  artifactKey: Guid(510c5ffcbde7de74eb012a72cd4c3118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/leek03.fbx using Guid(510c5ffcbde7de74eb012a72cd4c3118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a7763dac706707810b2ad164f1ac52') in 0.032346 seconds 
+  Import took 0.036366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Imports/LowPolyFruit/pineapple04.fbx
+  artifactKey: Guid(a1eb07f8bbe71be4fa098ade2dcacf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pineapple04.fbx using Guid(a1eb07f8bbe71be4fa098ade2dcacf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e437f7df16fd35e381b75cf4e1017a4') in 0.033565 seconds 
+  Import took 0.037262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom01.fbx
+  artifactKey: Guid(73231bbada8eca44ab5349378fe1922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom01.fbx using Guid(73231bbada8eca44ab5349378fe1922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688da83548b273b553475aff7301e68d') in 0.031197 seconds 
+  Import took 0.034717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Imports/LowPolyFruit/pomegranate03.fbx
+  artifactKey: Guid(340efdd42c1f50d42877f9fc4c54ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pomegranate03.fbx using Guid(340efdd42c1f50d42877f9fc4c54ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234d21b3999665b6a1a95af6aa1c5eb9') in 0.036683 seconds 
+  Import took 0.040597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Imports/LowPolyFruit/onion02.fbx
+  artifactKey: Guid(2877e1b2f3ae89a4989b54fd1d444529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion02.fbx using Guid(2877e1b2f3ae89a4989b54fd1d444529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d53952efad9c1410794382139fcb8b4') in 0.032580 seconds 
+  Import took 0.037394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Imports/LowPolyFruit/pistachio01.fbx
+  artifactKey: Guid(37022bd28f55d22428571e2e4a4342aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pistachio01.fbx using Guid(37022bd28f55d22428571e2e4a4342aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22efc12c10ff311076ffe5cffca0f1b5') in 0.033807 seconds 
+  Import took 0.037254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Imports/LowPolyFruit/mango02.fbx
+  artifactKey: Guid(0ce60a64e962d034ea42454279b83f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mango02.fbx using Guid(0ce60a64e962d034ea42454279b83f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0391de6b8edae932c1fa64f084475c') in 0.030387 seconds 
+  Import took 0.033424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Imports/LowPolyFruit/potato02.fbx
+  artifactKey: Guid(68eda3f91df482549885d745b0a7df80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/potato02.fbx using Guid(68eda3f91df482549885d745b0a7df80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0423850f8ac180aea754ed80c59c44ed') in 0.036166 seconds 
+  Import took 0.041664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Imports/LowPolyFruit/pepperfruit02.fbx
+  artifactKey: Guid(b46807aee4c0b1f498e363a49e081a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pepperfruit02.fbx using Guid(b46807aee4c0b1f498e363a49e081a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2d1758ad6d8aa92e87fa50f1930188') in 0.032421 seconds 
+  Import took 0.036208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Imports/LowPolyFruit/pumpkin01.fbx
+  artifactKey: Guid(b873cb5d0d9e5c54485dcaea489c3f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pumpkin01.fbx using Guid(b873cb5d0d9e5c54485dcaea489c3f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8237329f548d4dc3d6637a9461ed88fa') in 0.033908 seconds 
+  Import took 0.037017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Imports/LowPolyFruit/onion06.fbx
+  artifactKey: Guid(c0344a2eff709534fb15573f0f21acf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion06.fbx using Guid(c0344a2eff709534fb15573f0f21acf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df965032de390e724c704971c3ab7e58') in 0.030322 seconds 
+  Import took 0.034316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Imports/LowPolyFruit/pineapple02.fbx
+  artifactKey: Guid(03c1660910b2ee54e98af26ed0ce5839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pineapple02.fbx using Guid(03c1660910b2ee54e98af26ed0ce5839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9044f65d02ab09b6ca54ed096e6a251a') in 0.030643 seconds 
+  Import took 0.035685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Imports/LowPolyFruit/watermelon02.fbx
+  artifactKey: Guid(1e96702fec0f6a844b3597dee3841e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/watermelon02.fbx using Guid(1e96702fec0f6a844b3597dee3841e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55de28182b7095602a2fb15c8b77d4d') in 0.033113 seconds 
+  Import took 0.037130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Imports/LowPolyFruit/walnut01.fbx
+  artifactKey: Guid(2e05f53174ae4194c9585b9d0dabffc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/walnut01.fbx using Guid(2e05f53174ae4194c9585b9d0dabffc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1578d34a86e18d951d28103dffb7324a') in 0.034371 seconds 
+  Import took 0.038292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Imports/LowPolyFruit/strawberry02.fbx
+  artifactKey: Guid(8dd505f84a693154e9136d20c4cbc35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/strawberry02.fbx using Guid(8dd505f84a693154e9136d20c4cbc35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d5603b4f777d28be2231bd8702dbdc') in 0.035104 seconds 
+  Import took 0.041942 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000389 seconds.
-  path: Assets/Sprites/Bomb.png
-  artifactKey: Guid(5439bdf7e933bf947a97d9f73a777129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bomb.png using Guid(5439bdf7e933bf947a97d9f73a777129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7accb8232bc64d82c753a9f497711e1') in 0.137815 seconds 
-  Import took 0.142268 seconds .
+  path: Assets/Imports/LowPolyFruit/scallion01.fbx
+  artifactKey: Guid(c915b6c09987bf24a92b0ca0ffb1c0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/scallion01.fbx using Guid(c915b6c09987bf24a92b0ca0ffb1c0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85b88e50b9919435eaa65fd0952bc39') in 0.037324 seconds 
+  Import took 0.072820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Imports/LowPolyFruit/grapes01.fbx
+  artifactKey: Guid(1a1bc6105c3c12442bd2e4a310391c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/grapes01.fbx using Guid(1a1bc6105c3c12442bd2e4a310391c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d40b83e97c14ef9725bc79998e2172a') in 0.034023 seconds 
+  Import took 0.038167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Imports/LowPolyFruit/pepperfruit04.fbx
+  artifactKey: Guid(826ac8a1aa5e5674a98bf8c911a01145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pepperfruit04.fbx using Guid(826ac8a1aa5e5674a98bf8c911a01145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7529126cb80b1dcd2b6f3453f488e39e') in 0.040256 seconds 
+  Import took 0.044515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Imports/LowPolyFruit/raspberry01.fbx
+  artifactKey: Guid(043670f7b081e7648b4e7a7d08cf3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/raspberry01.fbx using Guid(043670f7b081e7648b4e7a7d08cf3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb29e3a8a26b26eb6a9cd6a60120581') in 0.035237 seconds 
+  Import took 0.038906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom06.fbx
+  artifactKey: Guid(694fa9dbc7b12e14eabf9911b430a4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom06.fbx using Guid(694fa9dbc7b12e14eabf9911b430a4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7b2cf2066000a0edf2e923527d2bc1') in 0.042862 seconds 
+  Import took 0.047214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Imports/LowPolyFruit/ginger02.fbx
+  artifactKey: Guid(a5c8a436ba750df4fabf8bb16bd2b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/ginger02.fbx using Guid(a5c8a436ba750df4fabf8bb16bd2b373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168de5117c03cfe438df7dc43201c5f6') in 0.036995 seconds 
+  Import took 0.041074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Imports/LowPolyFruit/grapes03.fbx
+  artifactKey: Guid(a6178d1cb97f740418f3066b5cb15cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/grapes03.fbx using Guid(a6178d1cb97f740418f3066b5cb15cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4e2e1728477e7d28c08b8f26da35a5') in 0.035131 seconds 
+  Import took 0.038720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Imports/LowPolyFruit/leek02.fbx
+  artifactKey: Guid(7e0524b379c99454cb8aa2ddb1fbb4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/leek02.fbx using Guid(7e0524b379c99454cb8aa2ddb1fbb4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d784516aa081061ea4cde883f08694a') in 0.031338 seconds 
+  Import took 0.034254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Imports/LowPolyFruit/passionfruit02.fbx
+  artifactKey: Guid(6e38e6cd294ab264fbe735bd9f1d61c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/passionfruit02.fbx using Guid(6e38e6cd294ab264fbe735bd9f1d61c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8b2c500d7d616fb16455c3f38311fe') in 0.039019 seconds 
+  Import took 0.041689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Imports/LowPolyFruit/hazelnut01.fbx
+  artifactKey: Guid(282ac197eaa47054081323f15ca11d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/hazelnut01.fbx using Guid(282ac197eaa47054081323f15ca11d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f116a535f868411ba2586d097431d0') in 0.032103 seconds 
+  Import took 0.035299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Imports/LowPolyFruit/lime03.fbx
+  artifactKey: Guid(8129ddf522662944dbeb6a0fb03a0c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lime03.fbx using Guid(8129ddf522662944dbeb6a0fb03a0c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb99a16bda447d20ec7b2337880907e') in 0.035307 seconds 
+  Import took 0.039085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Imports/LowPolyFruit/pepperfruit05.fbx
+  artifactKey: Guid(5bb24a108098150409bbd02d5678f92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pepperfruit05.fbx using Guid(5bb24a108098150409bbd02d5678f92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0d3552ff9f9bc9c85e77ee325b2a98') in 0.035423 seconds 
+  Import took 0.041333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Imports/LowPolyFruit/radish02.fbx
+  artifactKey: Guid(437378dc146b8fd42ab63d18288f75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/radish02.fbx using Guid(437378dc146b8fd42ab63d18288f75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e85752998760e7cd76e63866e359030') in 0.032277 seconds 
+  Import took 0.035709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Imports/LowPolyFruit/lemon01.fbx
+  artifactKey: Guid(4ec0f3e9cf938984a84078f7513386fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lemon01.fbx using Guid(4ec0f3e9cf938984a84078f7513386fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cd0ba82083e7cc6860c85a8b77832a') in 0.031426 seconds 
+  Import took 0.034594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Imports/LowPolyFruit/pepperchili03.fbx
+  artifactKey: Guid(f784c2297281af945bf06f8798e373ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pepperchili03.fbx using Guid(f784c2297281af945bf06f8798e373ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9841a42402080f399515995a05091f') in 0.034800 seconds 
+  Import took 0.040103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000801 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom04.fbx
+  artifactKey: Guid(19e8f8fe1e303cd43bd0d08568527d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom04.fbx using Guid(19e8f8fe1e303cd43bd0d08568527d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2905148beb2c85ef5e220e2c2b09bcd1') in 0.028373 seconds 
+  Import took 0.033768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Imports/LowPolyFruit/pineapple03.fbx
+  artifactKey: Guid(6ff5b59019a764542bde509dad76f500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pineapple03.fbx using Guid(6ff5b59019a764542bde509dad76f500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a86176855adfaf666a340535dc36f95') in 0.037822 seconds 
+  Import took 0.041407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Imports/LowPolyFruit/pepperchili02.fbx
+  artifactKey: Guid(43883f2f23bbb474085a1c489439d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pepperchili02.fbx using Guid(43883f2f23bbb474085a1c489439d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63da0a3d408b4ba709bdce56e1c8b26') in 0.042054 seconds 
+  Import took 0.046218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Imports/LowPolyFruit/hazelnut02.fbx
+  artifactKey: Guid(c06e4f1fec8387a45867dea85706085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/hazelnut02.fbx using Guid(c06e4f1fec8387a45867dea85706085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaecc54e9fac16f485ff40af04ca532') in 0.034583 seconds 
+  Import took 0.038858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Imports/LowPolyFruit/watermelon03.fbx
+  artifactKey: Guid(e7a1eb0aa11e2584ab143297323fd7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/watermelon03.fbx using Guid(e7a1eb0aa11e2584ab143297323fd7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69122d7bc5e79a3494c2fb9ec6cae35f') in 0.036939 seconds 
+  Import took 0.042708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Imports/LowPolyFruit/pomegranate02.fbx
+  artifactKey: Guid(0cc83491e8263834d9a1cd736c98f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pomegranate02.fbx using Guid(0cc83491e8263834d9a1cd736c98f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a157f6d3739b9ceccac66c00649c5492') in 0.033135 seconds 
+  Import took 0.036995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Imports/LowPolyFruit/tomato01.fbx
+  artifactKey: Guid(a28b567f64146754f8e256711fe65e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/tomato01.fbx using Guid(a28b567f64146754f8e256711fe65e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008d124fbe2e88c63315c0b74f4273d1') in 0.038095 seconds 
+  Import took 0.049445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Imports/LowPolyFruit/walnut02.fbx
+  artifactKey: Guid(0ef1e9c100c9fab4eb5d6828ffedd462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/walnut02.fbx using Guid(0ef1e9c100c9fab4eb5d6828ffedd462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14bbb4579436ccda1ff9c1544f9f327') in 0.040840 seconds 
+  Import took 0.044594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Imports/LowPolyFruit/mango01.fbx
+  artifactKey: Guid(5a609985bf50c504ba2110ae274fcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mango01.fbx using Guid(5a609985bf50c504ba2110ae274fcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a5859a899a68493af0f7238d055009') in 0.044396 seconds 
+  Import took 0.047936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Imports/LowPolyFruit/radish01.fbx
+  artifactKey: Guid(dd46c6ed4fc9d6146998e2ca2925ef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/radish01.fbx using Guid(dd46c6ed4fc9d6146998e2ca2925ef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd4bdf4b0766f500279fb06bdd9a750') in 0.026816 seconds 
+  Import took 0.030829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Imports/LowPolyFruit/parsnip01.fbx
+  artifactKey: Guid(3b2572dbe99ea9a4cad9c1ef82ffa684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/parsnip01.fbx using Guid(3b2572dbe99ea9a4cad9c1ef82ffa684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92246f9cb9409406b77524609ae250e6') in 0.032337 seconds 
+  Import took 0.036439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Imports/LowPolyFruit/pepperchili01.fbx
+  artifactKey: Guid(f2a25273b92996f438aceafeed2cb468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pepperchili01.fbx using Guid(f2a25273b92996f438aceafeed2cb468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec256fc88af4a9df38e8c521f3e9ea1') in 0.034824 seconds 
+  Import took 0.040005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Imports/LowPolyFruit/potato03.fbx
+  artifactKey: Guid(6b7a86cf11b484e47ade35d5e263af11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/potato03.fbx using Guid(6b7a86cf11b484e47ade35d5e263af11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ef6eae683b630eff486669bb3e8822') in 0.038987 seconds 
+  Import took 0.045263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Imports/LowPolyFruit/walnut03.fbx
+  artifactKey: Guid(013436030bbb9264bb9aba55adee00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/walnut03.fbx using Guid(013436030bbb9264bb9aba55adee00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f7c6d2c8d881254c964e46fecd4037') in 0.034825 seconds 
+  Import took 0.037707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Imports/LowPolyFruit/onion03.fbx
+  artifactKey: Guid(edad6625e5d08bf409706278db8fd230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion03.fbx using Guid(edad6625e5d08bf409706278db8fd230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56e2fa53265326e5b6b3653d030ab39') in 0.045051 seconds 
+  Import took 0.049063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Imports/LowPolyFruit/orange01.fbx
+  artifactKey: Guid(22d17c08ce6d159468f506ee83c5855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/orange01.fbx using Guid(22d17c08ce6d159468f506ee83c5855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1794156d4d1c824b54ce90ed673c5ec9') in 0.032961 seconds 
+  Import took 0.040207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Imports/LowPolyFruit/peach01.fbx
+  artifactKey: Guid(30be878406425c948984f37724765daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/peach01.fbx using Guid(30be878406425c948984f37724765daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7fb305e35566eb4f955a341ebc87da') in 0.032771 seconds 
+  Import took 0.036632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Imports/LowPolyFruit/papaya02.fbx
+  artifactKey: Guid(28a7c41959d1c9f4491acc95459074b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/papaya02.fbx using Guid(28a7c41959d1c9f4491acc95459074b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a5728c6051b2545df7fda779858166') in 0.031957 seconds 
+  Import took 0.035157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Imports/LowPolyFruit/parsnip03.fbx
+  artifactKey: Guid(cdaeb03d408746d498770409236fb86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/parsnip03.fbx using Guid(cdaeb03d408746d498770409236fb86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1d14c8293e2c21c91ebc5fab417a2f') in 0.030894 seconds 
+  Import took 0.033800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Imports/LowPolyFruit/lemon03.fbx
+  artifactKey: Guid(1ff455eddd9642f4aa5988e2b2a55f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lemon03.fbx using Guid(1ff455eddd9642f4aa5988e2b2a55f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2b624f6aa8dcdf2ea991ef710fcd4a') in 0.032512 seconds 
+  Import took 0.035803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Imports/LowPolyFruit/leek01.fbx
+  artifactKey: Guid(d293545b34c5bf945b94e35b84e16585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/leek01.fbx using Guid(d293545b34c5bf945b94e35b84e16585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f3acde8b79124895a976344e2d4394') in 0.029827 seconds 
+  Import took 0.033830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Imports/LowPolyFruit/pomegranate01.fbx
+  artifactKey: Guid(ac7107dceccbc5a41a35c82db946875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pomegranate01.fbx using Guid(ac7107dceccbc5a41a35c82db946875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390f14d71d32e636b337fe225ac14e0b') in 0.031924 seconds 
+  Import took 0.036345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Imports/LowPolyFruit/grapes02.fbx
+  artifactKey: Guid(38781e5e38547284499bce35ff82152f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/grapes02.fbx using Guid(38781e5e38547284499bce35ff82152f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bce720c3ee9f81bffee7209e08d414f') in 0.030928 seconds 
+  Import took 0.034916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom05.fbx
+  artifactKey: Guid(d1c5bf9206a2548419598af0a294485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom05.fbx using Guid(d1c5bf9206a2548419598af0a294485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fffe57108006cc724eb288570d4601') in 0.033474 seconds 
+  Import took 0.037055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Imports/LowPolyFruit/strawberry03.fbx
+  artifactKey: Guid(e93fefff9eebd754a9f23bcef2e1ebb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/strawberry03.fbx using Guid(e93fefff9eebd754a9f23bcef2e1ebb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17c6223071efeefd544c0374f05c8b7') in 0.030147 seconds 
+  Import took 0.033550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Imports/LowPolyFruit/watermelon01.fbx
+  artifactKey: Guid(22233fc476cd5bd459b32f2e187f050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/watermelon01.fbx using Guid(22233fc476cd5bd459b32f2e187f050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76230bb5ef9a385c998d5dc3a9bcb403') in 0.031083 seconds 
+  Import took 0.033549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Imports/LowPolyFruit/pepperfruit03.fbx
+  artifactKey: Guid(e0bbd7f85e3a3274789d1968589b6fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pepperfruit03.fbx using Guid(e0bbd7f85e3a3274789d1968589b6fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73329f71b3d21ca365359389b700a5b') in 0.034234 seconds 
+  Import took 0.037533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Imports/LowPolyFruit/onion01.fbx
+  artifactKey: Guid(1ad24bf7c17cc4048858f3476375f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion01.fbx using Guid(1ad24bf7c17cc4048858f3476375f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add0363cfe0a344d28b9d71e1719ee9c') in 0.031154 seconds 
+  Import took 0.035351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/Imports/LowPolyFruit/pear01.fbx
+  artifactKey: Guid(f10384d08d91f16479d19364726ecd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pear01.fbx using Guid(f10384d08d91f16479d19364726ecd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586961e7170fd5a59ad23ae91e1e6ede') in 0.034000 seconds 
+  Import took 0.042675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Imports/LowPolyFruit/potato04.fbx
+  artifactKey: Guid(96b05a2d3c31d994d8e6ad4e675b805b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/potato04.fbx using Guid(96b05a2d3c31d994d8e6ad4e675b805b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6da06d2a7120088869ff2f37e26b4c') in 0.032733 seconds 
+  Import took 0.035578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Imports/LowPolyFruit/lettuce01.fbx
+  artifactKey: Guid(f0266370e98fe764c86d20c9e8464fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lettuce01.fbx using Guid(f0266370e98fe764c86d20c9e8464fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635a5959e42f38c12e4a79235920324d') in 0.030772 seconds 
+  Import took 0.046303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Imports/LowPolyFruit/passionfruit03.fbx
+  artifactKey: Guid(dd76b49adff40a249a92744b02ad2272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/passionfruit03.fbx using Guid(dd76b49adff40a249a92744b02ad2272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c564f9139319e2fda40e2fd1a971bb') in 0.032023 seconds 
+  Import took 0.035808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Imports/LowPolyFruit/parsnip02.fbx
+  artifactKey: Guid(291ca29e98157ed44bfc230d7bdae9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/parsnip02.fbx using Guid(291ca29e98157ed44bfc230d7bdae9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1655b65d1bcbdcc90d8d4011e6f12c') in 0.031889 seconds 
+  Import took 0.035069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Imports/LowPolyFruit/lime02.fbx
+  artifactKey: Guid(31a63115f95973248bfc3638e69db6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lime02.fbx using Guid(31a63115f95973248bfc3638e69db6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360328dd6b660b037d4b69f3bc594a2c') in 0.028634 seconds 
+  Import took 0.032969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Imports/LowPolyFruit/pepperfruit06.fbx
+  artifactKey: Guid(ddff452ed34aaed41b871c4f7beff0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pepperfruit06.fbx using Guid(ddff452ed34aaed41b871c4f7beff0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab8b00ddcd64c981f7ad6335b77fa18') in 0.165092 seconds 
+  Import took 0.170697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Imports/LowPolyFruit/tomato02.fbx
+  artifactKey: Guid(f3d3932f8b8347f47ae1c5b7a8cf6ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/tomato02.fbx using Guid(f3d3932f8b8347f47ae1c5b7a8cf6ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28579a64dfb3c308775d6cc87e9c7e8') in 0.030874 seconds 
+  Import took 0.035032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Imports/LowPolyFruit/onion05.fbx
+  artifactKey: Guid(4d1e0b902045a0b4599e3498b20893e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion05.fbx using Guid(4d1e0b902045a0b4599e3498b20893e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d66fa56292331ac8580f1bdd1c8ff11') in 0.032104 seconds 
+  Import took 0.035318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Imports/LowPolyFruit/pear02.fbx
+  artifactKey: Guid(7d13fc02ef27904418cdd82e0f8766d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pear02.fbx using Guid(7d13fc02ef27904418cdd82e0f8766d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea3cb61ac8ea6a47cfd3a78d0251a48') in 0.031016 seconds 
+  Import took 0.034699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Imports/LowPolyFruit/pepperfruit01.fbx
+  artifactKey: Guid(95b7ca0ae75cd494598b6720ac3262de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pepperfruit01.fbx using Guid(95b7ca0ae75cd494598b6720ac3262de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3c02f1a36ab886a1a601ee172e6ace') in 0.035309 seconds 
+  Import took 0.042625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Imports/LowPolyFruit/strawberry01.fbx
+  artifactKey: Guid(9451c37611f4b794bb103ac49ff756d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/strawberry01.fbx using Guid(9451c37611f4b794bb103ac49ff756d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b5e4710f871239240ae7961806f175') in 0.034675 seconds 
+  Import took 0.039179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Imports/LowPolyFruit/onion04.fbx
+  artifactKey: Guid(4fb8b7f63cc6ca149bc70f4221f704ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion04.fbx using Guid(4fb8b7f63cc6ca149bc70f4221f704ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad9fe3fadbb992903c9ca347e3c969f') in 0.034174 seconds 
+  Import took 0.038062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Imports/LowPolyFruit/orange02.fbx
+  artifactKey: Guid(5535d37a67f3db64082571bbc0edb662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/orange02.fbx using Guid(5535d37a67f3db64082571bbc0edb662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0cca1cb691a036aac96103e9aaa206') in 0.041070 seconds 
+  Import took 0.084127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Imports/LowPolyFruit/kiwi01.fbx
+  artifactKey: Guid(7b93db802d1311844b3e6762adfb0e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/kiwi01.fbx using Guid(7b93db802d1311844b3e6762adfb0e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6d6c744ac6797b35d857fbd2888810') in 0.030257 seconds 
+  Import took 0.033470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Imports/LowPolyFruit/passionfruit04.fbx
+  artifactKey: Guid(8cbc9dd889d87784fa1bef652282c4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/passionfruit04.fbx using Guid(8cbc9dd889d87784fa1bef652282c4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e597957ae742948d0880719e2bf62ac8') in 0.037337 seconds 
+  Import took 0.041122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Imports/LowPolyFruit/scallion02.fbx
+  artifactKey: Guid(25a43c69efa46c540b8687e7014fe942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/scallion02.fbx using Guid(25a43c69efa46c540b8687e7014fe942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14407dddbe08fc077ba7674f12dc351c') in 0.032695 seconds 
+  Import took 0.039698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Imports/LowPolyFruit/peach02.fbx
+  artifactKey: Guid(5495223e8011a134f96c9449b1b8e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/peach02.fbx using Guid(5495223e8011a134f96c9449b1b8e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d23c60ec3a3df9c070ecca231638b9') in 0.037031 seconds 
+  Import took 0.043889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Imports/LowPolyFruit/tomato03.fbx
+  artifactKey: Guid(d132c75b35a17744e9103e67291afef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/tomato03.fbx using Guid(d132c75b35a17744e9103e67291afef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912d29644d77526b4b64502f50df32ac') in 0.032932 seconds 
+  Import took 0.035958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Imports/LowPolyFruit/pineapple01.fbx
+  artifactKey: Guid(af00f33a263a54f4493ed7230f3c35af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pineapple01.fbx using Guid(af00f33a263a54f4493ed7230f3c35af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a9c0ce4788d33b299857c5ea13f85a') in 0.033538 seconds 
+  Import took 0.036681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom03.fbx
+  artifactKey: Guid(7a1b9c3b8ad37ba4caf3be6916a0351f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom03.fbx using Guid(7a1b9c3b8ad37ba4caf3be6916a0351f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fec21f5065a9e142228ab10587792b') in 0.032895 seconds 
+  Import took 0.037832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Imports/LowPolyFruit/lemon02.fbx
+  artifactKey: Guid(fbdf7324b009b6244ac94b2841970e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lemon02.fbx using Guid(fbdf7324b009b6244ac94b2841970e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2458eaa9fbf983bdf03f162478b2d04f') in 0.047787 seconds 
+  Import took 0.051228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Imports/LowPolyFruit/passionfruit01.fbx
+  artifactKey: Guid(0dbc6fa00d0661d48b974ce963b1c1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/passionfruit01.fbx using Guid(0dbc6fa00d0661d48b974ce963b1c1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74df2c1a979d150190f4d62a532cfc87') in 0.032760 seconds 
+  Import took 0.036051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Imports/LowPolyFruit/papaya01.fbx
+  artifactKey: Guid(ea977fd5e008bb94886fd390e6034bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/papaya01.fbx using Guid(ea977fd5e008bb94886fd390e6034bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95502ccd185e904639ed178e64877859') in 0.030012 seconds 
+  Import took 0.032796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Imports/LowPolyFruit/mango03.fbx
+  artifactKey: Guid(febaab456d3f2524398e2ed5eb44fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mango03.fbx using Guid(febaab456d3f2524398e2ed5eb44fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f81cc42c74beb4358a61a1750293bd') in 0.032425 seconds 
+  Import took 0.035059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Imports/LowPolyFruit/onion07.fbx
+  artifactKey: Guid(453999f731816b24eaad23d7ee1ba59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion07.fbx using Guid(453999f731816b24eaad23d7ee1ba59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb05b10b8cdefa949a045cdf0cc97a5') in 0.027872 seconds 
+  Import took 0.030522 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000274 seconds.
-  path: Assets/Sprites/Splat.png
-  artifactKey: Guid(3f3bd5d8219f85e4e9103f36dabb8187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Splat.png using Guid(3f3bd5d8219f85e4e9103f36dabb8187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beafcd8f2f68aa17334d6637c16b696') in 0.044263 seconds 
-  Import took 0.048189 seconds .
+  path: Assets/Imports/LowPolyFruit/mushroom02.fbx
+  artifactKey: Guid(9e4a7eda9effcd149a6301b941fa6155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom02.fbx using Guid(9e4a7eda9effcd149a6301b941fa6155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02173eba3ebdd189bb80a0e960009833') in 0.028250 seconds 
+  Import took 0.030733 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Sprites/Wall.png
-  artifactKey: Guid(5956b34a3ca705b4ebdb3791c15ee379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Wall.png using Guid(5956b34a3ca705b4ebdb3791c15ee379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302311f1cbb64e9acb4528f54efdbe6d') in 0.040679 seconds 
-  Import took 0.044840 seconds .
+  Time since last request: 0.000253 seconds.
+  path: Assets/Imports/LowPolyFruit/pistachio02.fbx
+  artifactKey: Guid(f4278fbacb8158c43a2884e34cb54fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/pistachio02.fbx using Guid(f4278fbacb8158c43a2884e34cb54fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab34000ead8b85a39ffc2832df6e32be') in 0.026126 seconds 
+  Import took 0.030816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.738083 seconds.
-  path: Assets/Imports
-  artifactKey: Guid(0f194e85fb7acc4439fa963fc25fa20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports using Guid(0f194e85fb7acc4439fa963fc25fa20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec77ab075c0d9b996fa1917f7a95350d') in 0.010185 seconds 
-  Import took 0.014169 seconds .
+  Time since last request: 72.565467 seconds.
+  path: Assets/Imports/LowPolyFruit/texture
+  artifactKey: Guid(0456fa829d3e8c447914cd215e9f300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/texture using Guid(0456fa829d3e8c447914cd215e9f300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552b3d797befd7e54fcb01dc4ea9b389') in 0.007758 seconds 
+  Import took 0.011350 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.553487 seconds.
-  path: Assets/Imports/Faces
-  artifactKey: Guid(6fb4c1a1e70b59541b32d6c89c4bffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Faces using Guid(6fb4c1a1e70b59541b32d6c89c4bffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1db8cfa8abc857eb58152620ec12313') in 0.008969 seconds 
-  Import took 0.034461 seconds .
+  Time since last request: 0.009392 seconds.
+  path: Assets/Imports/LowPolyFruit/texture/colortex.png
+  artifactKey: Guid(bc70f2a1a8a40b240a1f372d6a5a66ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/texture/colortex.png using Guid(bc70f2a1a8a40b240a1f372d6a5a66ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b5d37b963e15d3187449505f64542c') in 0.046140 seconds 
+  Import took 0.049253 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.138973 seconds.
-  path: Assets/kaiFace.png
-  artifactKey: Guid(556e7b0a1683d7847823cdf1024f8856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kaiFace.png using Guid(556e7b0a1683d7847823cdf1024f8856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186b5d2166d8d4c73dbd369f96a320e6') in 0.026011 seconds 
-  Import took 0.058305 seconds .
+  Time since last request: 56.651040 seconds.
+  path: Assets/Imports/LowPolyFruit/applered02.fbx
+  artifactKey: Guid(bc5e7d7de25336b4b99893e0fbab3529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered02.fbx using Guid(bc5e7d7de25336b4b99893e0fbab3529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e00ba333b9e3ad769657edae1c455ca') in 0.028698 seconds 
+  Import took 0.032695 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/KaiFaceMat.mat
-  artifactKey: Guid(f43785867bca26a4a98d68f52eeb03b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KaiFaceMat.mat using Guid(f43785867bca26a4a98d68f52eeb03b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29430a2e7b1eb532d443832c9ff19f52') in 0.054101 seconds 
-  Import took 0.086764 seconds .
+  Time since last request: 15.250490 seconds.
+  path: Assets/Imports/LowPolyFruit/ginger01.fbx
+  artifactKey: Guid(facec2e0d42d60d44963e0ad4df51d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/ginger01.fbx using Guid(facec2e0d42d60d44963e0ad4df51d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d7d8586c626e24db6b57acf220b44b') in 0.027131 seconds 
+  Import took 0.030907 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.471573 seconds.
-  path: Assets/LucasFace.png
-  artifactKey: Guid(58b9c4b74c8625c469203341f7f862e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LucasFace.png using Guid(58b9c4b74c8625c469203341f7f862e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd64117b2de1dd88877153fe2661a99') in 0.019039 seconds 
-  Import took 0.051483 seconds .
+  Time since last request: 15.967407 seconds.
+  path: Assets/Imports/LowPolyFruit/applered01.fbx
+  artifactKey: Guid(12290e1e092b58c4f86d771d5dd8a346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered01.fbx using Guid(12290e1e092b58c4f86d771d5dd8a346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d0985c725ba2282d8c8883ae0bcc4d') in 0.033776 seconds 
+  Import took 0.038814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.676525 seconds.
+  path: Assets/Imports/LowPolyFruit/applered03.fbx
+  artifactKey: Guid(60058732c2bfe1f43be7891e28c914b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered03.fbx using Guid(60058732c2bfe1f43be7891e28c914b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd73c35f593178ff4f7c52f3519810aa') in 0.025120 seconds 
+  Import took 0.028437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.649225 seconds.
+  path: Assets/Imports/LowPolyFruit/asparagus01.fbx
+  artifactKey: Guid(e13f1f6877d1c684f8c038eadf01a3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/asparagus01.fbx using Guid(e13f1f6877d1c684f8c038eadf01a3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40db8306d2425665487f43d9a5089f2c') in 0.026239 seconds 
+  Import took 0.029283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.743470 seconds.
+  path: Assets/Imports/LowPolyFruit/asparagus01.gltf
+  artifactKey: Guid(92922a8146d0ce64ea3e862a8d7130d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/asparagus01.gltf using Guid(92922a8146d0ce64ea3e862a8d7130d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520d8084b2e976ef566f29bc4bbffbcb') in 0.008252 seconds 
+  Import took 0.012709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.776900 seconds.
+  path: Assets/Imports/LowPolyFruit/applered03.gltf
+  artifactKey: Guid(5f55c71a89e122544a1514c2e25acc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered03.gltf using Guid(5f55c71a89e122544a1514c2e25acc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5ee64203cd4487454db707010862d5') in 0.005251 seconds 
+  Import took 0.008567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.441624 seconds.
+  path: Assets/Imports/LowPolyFruit/beetroot02.gltf
+  artifactKey: Guid(fdaad331da0705b449b328c75a471aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beetroot02.gltf using Guid(fdaad331da0705b449b328c75a471aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8b1068065ae99cc8370be00e232381') in 0.003324 seconds 
+  Import took 0.007368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.336479 seconds.
+  path: Assets/Imports/LowPolyFruit/applered01.gltf
+  artifactKey: Guid(f5ec3f9ccb4531b44b33b24f9c66e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered01.gltf using Guid(f5ec3f9ccb4531b44b33b24f9c66e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efd562110662caed34a1b82ac17bf64') in 0.010350 seconds 
+  Import took 0.014573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.876586 seconds.
+  path: Assets/Imports/LowPolyFruit/potato01.gltf
+  artifactKey: Guid(25ede82cd3f2eb34b8faf09eb4feb7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/potato01.gltf using Guid(25ede82cd3f2eb34b8faf09eb4feb7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adccf8c370f50051ff19ca43a55b5695') in 0.002448 seconds 
+  Import took 0.005053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.739936 seconds.
+  path: Assets/Imports/LowPolyFruit/applered01.obj
+  artifactKey: Guid(31e528561bdefe046960bea0f3bf827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered01.obj using Guid(31e528561bdefe046960bea0f3bf827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee02895c65ccb049ce913688bbf05920') in 0.041958 seconds 
+  Import took 0.049163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Imports/LowPolyFruit/broccoli01.obj
+  artifactKey: Guid(c9e1c12542ee99b4f8647db78c538b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/broccoli01.obj using Guid(c9e1c12542ee99b4f8647db78c538b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1393b0ac6e4ea71f8f6b0a6925e26798') in 0.034277 seconds 
+  Import took 0.037889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Imports/LowPolyFruit/applered02.obj
+  artifactKey: Guid(8446d0ddf05bb5748bd4c071d42f444a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered02.obj using Guid(8446d0ddf05bb5748bd4c071d42f444a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40970e19ec2037f6f36a1b66195f78e1') in 0.031844 seconds 
+  Import took 0.035219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Imports/LowPolyFruit/beetroot03.obj
+  artifactKey: Guid(081b2b088fd2f6c49816d693b2ed5b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beetroot03.obj using Guid(081b2b088fd2f6c49816d693b2ed5b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ccde0cde30b2163ce24346f7eee3b7') in 0.031283 seconds 
+  Import took 0.034691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Imports/LowPolyFruit/beetroot01.obj
+  artifactKey: Guid(9a17ff846465c1242b5fc1eff8d72d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beetroot01.obj using Guid(9a17ff846465c1242b5fc1eff8d72d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc195d7b93ab501594392c213bee9d9') in 0.035516 seconds 
+  Import took 0.040487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Imports/LowPolyFruit/beanbeads01.obj
+  artifactKey: Guid(3555295722ec70346a5eabdc4872652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beanbeads01.obj using Guid(3555295722ec70346a5eabdc4872652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c663290915b29cb8fa84bd0294d5fb5c') in 0.025705 seconds 
+  Import took 0.029028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Imports/LowPolyFruit/cabbage03.obj
+  artifactKey: Guid(d7ee5f1ab4fe3394dbcfe36ee29542d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cabbage03.obj using Guid(d7ee5f1ab4fe3394dbcfe36ee29542d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb7e6178a036d4836d820666e5b7ed4') in 0.026782 seconds 
+  Import took 0.030860 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000367 seconds.
-  path: Assets/LucasFaceMat.mat
-  artifactKey: Guid(3a6ff3de0e4b61144943767b12c56b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LucasFaceMat.mat using Guid(3a6ff3de0e4b61144943767b12c56b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e313c552c4574fbcdd94266b35cffa') in 0.013034 seconds 
-  Import took 0.019530 seconds .
+  path: Assets/Imports/LowPolyFruit/aubergine01.obj
+  artifactKey: Guid(01b9a8f0a45130645b070457ed049d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/aubergine01.obj using Guid(01b9a8f0a45130645b070457ed049d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfba481a04559a7c74b2d81a0457eb6d') in 0.025482 seconds 
+  Import took 0.028655 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.801103 seconds.
-  path: Assets/Materials/Particles/AppleMaterial.mat
-  artifactKey: Guid(9b8bc7c708f611d448d2106394de1a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Particles/AppleMaterial.mat using Guid(9b8bc7c708f611d448d2106394de1a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9604d85ea9f41e52d0f4970c18f471') in 0.021207 seconds 
-  Import took 0.058207 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/Imports/LowPolyFruit/banana01.obj
+  artifactKey: Guid(b2652c2b5edc8dd47a5ef5dfdae11bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/banana01.obj using Guid(b2652c2b5edc8dd47a5ef5dfdae11bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b5a2f4cb9094e5319e304366e827c4') in 0.032723 seconds 
+  Import took 0.036325 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.987563 seconds.
-  path: Assets/Materials/Particles/Splat.mat
-  artifactKey: Guid(b4c48efc09e7ce64293a79de5bb7a69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Particles/Splat.mat using Guid(b4c48efc09e7ce64293a79de5bb7a69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08dc3ed31b7200ab905d8aa91262db1') in 0.044763 seconds 
-  Import took 0.049320 seconds .
+  Time since last request: 0.000269 seconds.
+  path: Assets/Imports/LowPolyFruit/buttersquash01.obj
+  artifactKey: Guid(c1028fdca24c9a546beee3719b0ab0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/buttersquash01.obj using Guid(c1028fdca24c9a546beee3719b0ab0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8e19a4495150db48ea0c2bc0ed3f34') in 0.029616 seconds 
+  Import took 0.032940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Imports/LowPolyFruit/blueberry01.obj
+  artifactKey: Guid(061265b857b6e7048b0e2d8dbe2a95dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/blueberry01.obj using Guid(061265b857b6e7048b0e2d8dbe2a95dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b917910191bb37eac4265010ad8846') in 0.030627 seconds 
+  Import took 0.033730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Imports/LowPolyFruit/beetroot02.obj
+  artifactKey: Guid(d26709ae454e7d542a7105bc6a348f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beetroot02.obj using Guid(d26709ae454e7d542a7105bc6a348f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73e1e5b97a2e0dc910c00c57115b05e') in 0.029280 seconds 
+  Import took 0.033861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Imports/LowPolyFruit/banana02.obj
+  artifactKey: Guid(c9408cf56c121de4ba152a6685e0124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/banana02.obj using Guid(c9408cf56c121de4ba152a6685e0124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef08ccce91900245a30f2a81ded50d88') in 0.038705 seconds 
+  Import took 0.041693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Imports/LowPolyFruit/asparagus01.obj
+  artifactKey: Guid(afc43b3ee47b798489e21a7d645a3fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/asparagus01.obj using Guid(afc43b3ee47b798489e21a7d645a3fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc492dc3cb9a381b75fd8f6a8b00392') in 0.034416 seconds 
+  Import took 0.038018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Imports/LowPolyFruit/avocado01.obj
+  artifactKey: Guid(0b02cde7984c46948a8c40b55c2d6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/avocado01.obj using Guid(0b02cde7984c46948a8c40b55c2d6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef4e70c91b39b597a942d7661ce2926') in 0.025835 seconds 
+  Import took 0.028946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Imports/LowPolyFruit/applered03.obj
+  artifactKey: Guid(4ac119aef868d1b439f89e46ccfae85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/applered03.obj using Guid(4ac119aef868d1b439f89e46ccfae85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfb253f2f2e8b363f6c26b3feb4ea11') in 0.033158 seconds 
+  Import took 0.037826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Imports/LowPolyFruit/aubergine02.obj
+  artifactKey: Guid(756ab28afbb32e64b8782608e0f30ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/aubergine02.obj using Guid(756ab28afbb32e64b8782608e0f30ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8facd65e54adbc2622af09a68f4f4d') in 0.037741 seconds 
+  Import took 0.041368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Imports/LowPolyFruit/basil02.obj
+  artifactKey: Guid(2468cb6d1278d8148ad5739f4ad3615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/basil02.obj using Guid(2468cb6d1278d8148ad5739f4ad3615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6f713eee659f5770732edc11eee2a7') in 0.028909 seconds 
+  Import took 0.031952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Imports/LowPolyFruit/bean01.obj
+  artifactKey: Guid(7de3b8e04f02b1646b3f39fb68286dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/bean01.obj using Guid(7de3b8e04f02b1646b3f39fb68286dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36554c4b9a6e5b0ecbeac5c2c00779ca') in 0.024693 seconds 
+  Import took 0.027585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Imports/LowPolyFruit/basil01.obj
+  artifactKey: Guid(652907e0bde8f9f41a6badc3fd639994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/basil01.obj using Guid(652907e0bde8f9f41a6badc3fd639994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3857978f5946ed99517488b77a545af3') in 0.024830 seconds 
+  Import took 0.027363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Imports/LowPolyFruit/broccoli02.obj
+  artifactKey: Guid(d9fbd54eeb5a75848bb9189b9993a0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/broccoli02.obj using Guid(d9fbd54eeb5a75848bb9189b9993a0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12fc0bcedf1377d00e1683d0d8076ef') in 0.030652 seconds 
+  Import took 0.033901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Imports/LowPolyFruit/cabbage01.obj
+  artifactKey: Guid(fb5726d53c2256348894466bda7ac22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cabbage01.obj using Guid(fb5726d53c2256348894466bda7ac22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1142060c00a6e04dcc329602152cb3') in 0.027364 seconds 
+  Import took 0.031932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Imports/LowPolyFruit/cabbage02.obj
+  artifactKey: Guid(e6fb1d26e85da304ca0f3118739870e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cabbage02.obj using Guid(e6fb1d26e85da304ca0f3118739870e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572c7984efd1123ceda9db5fec3263e3') in 0.028078 seconds 
+  Import took 0.032827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Imports/LowPolyFruit/banana03.obj
+  artifactKey: Guid(b32dcde7620df3d469c9fc0b28cddce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/banana03.obj using Guid(b32dcde7620df3d469c9fc0b28cddce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d57880005932fb048459ace8fa3be87') in 0.030723 seconds 
+  Import took 0.035040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Imports/LowPolyFruit/banana04.obj
+  artifactKey: Guid(e61a62c23d9d43d459c00e199193a126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/banana04.obj using Guid(e61a62c23d9d43d459c00e199193a126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecad84d0677259a2eeb125ca6cd667e4') in 0.035868 seconds 
+  Import took 0.040168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Imports/LowPolyFruit/buttersquash02.obj
+  artifactKey: Guid(3177da0934548944db3cf2fdccfbcbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/buttersquash02.obj using Guid(3177da0934548944db3cf2fdccfbcbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e96cb72868915b9553a81cf9387dc1') in 0.035837 seconds 
+  Import took 0.040893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Imports/LowPolyFruit/beetroot04.obj
+  artifactKey: Guid(de57514c1b1de66408bf44a811e9afbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/beetroot04.obj using Guid(de57514c1b1de66408bf44a811e9afbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922f3c4184fc951c2aefe1ee18256680') in 0.024900 seconds 
+  Import took 0.027420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Imports/LowPolyFruit/avocado02.obj
+  artifactKey: Guid(fd62387a53e772240867cab7161f121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/avocado02.obj using Guid(fd62387a53e772240867cab7161f121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd698b8e11a1430415beade0d86e693a') in 0.028030 seconds 
+  Import took 0.032486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.641001 seconds.
+  path: Assets/Imports/LowPolyFruit/carrot01.obj
+  artifactKey: Guid(325e943f8a6d9ab4a86a72215e55ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/carrot01.obj using Guid(325e943f8a6d9ab4a86a72215e55ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca4c9ed7ebb62f8a216953f7c157cc8') in 0.032398 seconds 
+  Import took 0.038343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Imports/LowPolyFruit/clementine01.obj
+  artifactKey: Guid(ecf89bb006c50974c83d40ded4bafc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/clementine01.obj using Guid(ecf89bb006c50974c83d40ded4bafc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd91026756ee485fbf5744ce1ff37a5c') in 0.034596 seconds 
+  Import took 0.037175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Imports/LowPolyFruit/cauliflower01.obj
+  artifactKey: Guid(24937edb8a9eb5b40877511ee2478398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cauliflower01.obj using Guid(24937edb8a9eb5b40877511ee2478398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c9070de45edd1f1a63c3e24325013e') in 0.033927 seconds 
+  Import took 0.037535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Imports/LowPolyFruit/fig01.obj
+  artifactKey: Guid(709b9ef3f6980bf4ba766cad2c514187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/fig01.obj using Guid(709b9ef3f6980bf4ba766cad2c514187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c324581d48dee5842d186a8132dc9855') in 0.032761 seconds 
+  Import took 0.036359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Imports/LowPolyFruit/lemon02.obj
+  artifactKey: Guid(3e4a5f89c5e9024438cf8f3f1343e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lemon02.obj using Guid(3e4a5f89c5e9024438cf8f3f1343e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e65caff2fcb2e8025f9a6b5cf61826') in 0.031130 seconds 
+  Import took 0.037008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Imports/LowPolyFruit/onion01.obj
+  artifactKey: Guid(dfa97af3af6abc34eba4e6f977f9eb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion01.obj using Guid(dfa97af3af6abc34eba4e6f977f9eb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3ec7b30e58c67aa53d1e8ae09d676c') in 0.032066 seconds 
+  Import took 0.035649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Imports/LowPolyFruit/onion02.obj
+  artifactKey: Guid(edd2030e5056d4441840638c6bca31ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion02.obj using Guid(edd2030e5056d4441840638c6bca31ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d98ef91a071112400dbfb34e9f319f') in 0.031705 seconds 
+  Import took 0.035556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Imports/LowPolyFruit/garlic02.obj
+  artifactKey: Guid(d0d492b991741e24998e1ade9f4286c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/garlic02.obj using Guid(d0d492b991741e24998e1ade9f4286c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197c035566cba8aee5168cd18b11804e') in 0.035289 seconds 
+  Import took 0.040045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Imports/LowPolyFruit/lime03.obj
+  artifactKey: Guid(1f4706ebff245e247b7f0dc256be108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lime03.obj using Guid(1f4706ebff245e247b7f0dc256be108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a49165f2c4b41f8c2f039f172067adc') in 0.034541 seconds 
+  Import took 0.039660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Imports/LowPolyFruit/parsnip01.obj
+  artifactKey: Guid(eaaab5cbe9db4b1479bcac1cc5fdfd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/parsnip01.obj using Guid(eaaab5cbe9db4b1479bcac1cc5fdfd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0166beee462e6687f77841b98e84ac27') in 0.031471 seconds 
+  Import took 0.034767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom04.obj
+  artifactKey: Guid(80c5fe31a8ad4de4d9fb5f3ae6919e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom04.obj using Guid(80c5fe31a8ad4de4d9fb5f3ae6919e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3092ff67b579b086e54aacbd6486007') in 0.033692 seconds 
+  Import took 0.037780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Imports/LowPolyFruit/parsnip03.obj
+  artifactKey: Guid(5ebf338b90266b443a91950cdaa43680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/parsnip03.obj using Guid(5ebf338b90266b443a91950cdaa43680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f921cb3250c8286610c26ad8f31b1a') in 0.032041 seconds 
+  Import took 0.037595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/Imports/LowPolyFruit/chives01.obj
+  artifactKey: Guid(1eede9e6f5ea38049a50c2da15bb2351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chives01.obj using Guid(1eede9e6f5ea38049a50c2da15bb2351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec67552a44692f42a897b2ab06db14b') in 0.032165 seconds 
+  Import took 0.036105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom01.obj
+  artifactKey: Guid(47267d2cc9c19c646bb4ba720475ce77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom01.obj using Guid(47267d2cc9c19c646bb4ba720475ce77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f07221b6cda98bf743220d68194014d') in 0.035596 seconds 
+  Import took 0.039340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Imports/LowPolyFruit/cucumber01.obj
+  artifactKey: Guid(f3715106c996b834c951683691237fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cucumber01.obj using Guid(f3715106c996b834c951683691237fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a204bff266253cd9bae0adf7185cdf7d') in 0.039432 seconds 
+  Import took 0.043422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Imports/LowPolyFruit/corn03.obj
+  artifactKey: Guid(fc0404cde69a4894a843d058113c73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn03.obj using Guid(fc0404cde69a4894a843d058113c73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72811d6dd30ae9a27fa5dc329b1c3679') in 0.037268 seconds 
+  Import took 0.041286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Imports/LowPolyFruit/chestnut01.obj
+  artifactKey: Guid(99bc8f322e73b6c45a80b77412fa1fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chestnut01.obj using Guid(99bc8f322e73b6c45a80b77412fa1fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0d82ecb6aa3f6d70275507be25d9a9') in 0.042354 seconds 
+  Import took 0.045790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Imports/LowPolyFruit/ginger01.obj
+  artifactKey: Guid(8eea8ef15eaf8c04bac99ff33d6988bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/ginger01.obj using Guid(8eea8ef15eaf8c04bac99ff33d6988bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfc6191e78f51defc835150e08c46d8') in 0.033002 seconds 
+  Import took 0.036277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom02.obj
+  artifactKey: Guid(7d566928cc60ff541bf7290e398abf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom02.obj using Guid(7d566928cc60ff541bf7290e398abf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4792290c84ba74c20690a91c78b2a5') in 0.046697 seconds 
+  Import took 0.050262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Imports/LowPolyFruit/passionfruit02.obj
+  artifactKey: Guid(e22578d6761330d4cb182c08c0e92515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/passionfruit02.obj using Guid(e22578d6761330d4cb182c08c0e92515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274b457cf50e13fe6dc3a98633af3e2f') in 0.039250 seconds 
+  Import took 0.043254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Imports/LowPolyFruit/lemon03.obj
+  artifactKey: Guid(86dc50b2183d7704d9316658a1267f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lemon03.obj using Guid(86dc50b2183d7704d9316658a1267f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5480e9d2f0132b2f51b83a8b8fb5b01b') in 0.050958 seconds 
+  Import took 0.054581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Imports/LowPolyFruit/corn02.obj
+  artifactKey: Guid(fc86436bdd520084a8057eb25a15f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn02.obj using Guid(fc86436bdd520084a8057eb25a15f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48af202682832481ac7a1c800be0cce') in 0.044089 seconds 
+  Import took 0.047780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Imports/LowPolyFruit/grapes02.obj
+  artifactKey: Guid(604f62164bdfc89438591d29ba747df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/grapes02.obj using Guid(604f62164bdfc89438591d29ba747df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ec69098d18743536186da35fa39193') in 0.039879 seconds 
+  Import took 0.044053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom05.obj
+  artifactKey: Guid(d3d4d2fcbd6bfe043bf9adc749efa9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom05.obj using Guid(d3d4d2fcbd6bfe043bf9adc749efa9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f29064e9d1228a524409d2e1a2e5cc') in 0.045967 seconds 
+  Import took 0.050370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Imports/LowPolyFruit/parsley01.obj
+  artifactKey: Guid(18f4bcf6c78d4024b9457c07a7d53b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/parsley01.obj using Guid(18f4bcf6c78d4024b9457c07a7d53b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c7b205bf720ab4c7ba7d0f63d689ea') in 0.037036 seconds 
+  Import took 0.041017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Imports/LowPolyFruit/kiwi02.obj
+  artifactKey: Guid(53497843b438d22408ea27907dd3d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/kiwi02.obj using Guid(53497843b438d22408ea27907dd3d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3109fc0c9a36492cdaad65c78a523db4') in 0.029934 seconds 
+  Import took 0.039700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Imports/LowPolyFruit/cherry02.obj
+  artifactKey: Guid(e4f89cedabffabe4fae5381564d58bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cherry02.obj using Guid(e4f89cedabffabe4fae5381564d58bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4004e651f6eb1064604956440d26b67d') in 0.038829 seconds 
+  Import took 0.043068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Imports/LowPolyFruit/hazelnut01.obj
+  artifactKey: Guid(5830e6caebc251f4d82757354a668234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/hazelnut01.obj using Guid(5830e6caebc251f4d82757354a668234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf172bd14b5ca9d4480a4275cb222e9') in 0.031267 seconds 
+  Import took 0.037286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Imports/LowPolyFruit/chives03.obj
+  artifactKey: Guid(144b3be298844e24cb083b26ca998d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chives03.obj using Guid(144b3be298844e24cb083b26ca998d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed0b632f18daaae00ff6b8272547215') in 0.039181 seconds 
+  Import took 0.041936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Imports/LowPolyFruit/chives02.obj
+  artifactKey: Guid(bc142d39642330b4185de639840d58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chives02.obj using Guid(bc142d39642330b4185de639840d58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21363fb46e407d314f474573d6fae7c2') in 0.031706 seconds 
+  Import took 0.034503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Imports/LowPolyFruit/parsnip02.obj
+  artifactKey: Guid(dfd5e5b37d41b9a44add84a8c8d52cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/parsnip02.obj using Guid(dfd5e5b37d41b9a44add84a8c8d52cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4479dd75a7751a1d03ca42f7c1d4c16d') in 0.032228 seconds 
+  Import took 0.035987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000759 seconds.
+  path: Assets/Imports/LowPolyFruit/mango03.obj
+  artifactKey: Guid(b67b90bea72f30547b37a926de0b585b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mango03.obj using Guid(b67b90bea72f30547b37a926de0b585b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20049d12bcb616b00d840e55230c3a52') in 0.029865 seconds 
+  Import took 0.036454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom06.obj
+  artifactKey: Guid(781d8d88c82358c4ca4abdcd43850b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom06.obj using Guid(781d8d88c82358c4ca4abdcd43850b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba202222a03663ed80dd17e14f9588a0') in 0.035212 seconds 
+  Import took 0.038214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Imports/LowPolyFruit/corn06.obj
+  artifactKey: Guid(1ca4eda06f19be54189136a41d407778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn06.obj using Guid(1ca4eda06f19be54189136a41d407778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0290ac59a9b512029f5726dd5653bca') in 0.033215 seconds 
+  Import took 0.035973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Imports/LowPolyFruit/lemon01.obj
+  artifactKey: Guid(b5391488f1d7c4b4283da67d84c175a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lemon01.obj using Guid(b5391488f1d7c4b4283da67d84c175a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b969710d846d6ac5e4b80710cc3a69') in 0.032623 seconds 
+  Import took 0.035266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Imports/LowPolyFruit/clementine03.obj
+  artifactKey: Guid(5c5334cecdd9823488d676decb95ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/clementine03.obj using Guid(5c5334cecdd9823488d676decb95ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702f6ddf67eda9b3f1dbf1c6591acc2e') in 0.031389 seconds 
+  Import took 0.037170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Imports/LowPolyFruit/coconut03.obj
+  artifactKey: Guid(39a6f880fcfb49e4ca90b9b3ce676401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/coconut03.obj using Guid(39a6f880fcfb49e4ca90b9b3ce676401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23ab00ef85c1016eabb74d2c29f2016') in 0.036211 seconds 
+  Import took 0.039581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Imports/LowPolyFruit/leek02.obj
+  artifactKey: Guid(e98ddb7c9c84d604b835ef2b61c995a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/leek02.obj using Guid(e98ddb7c9c84d604b835ef2b61c995a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6620950ce2fb048eff031c2eb3faa2') in 0.029466 seconds 
+  Import took 0.032015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Imports/LowPolyFruit/mushroom03.obj
+  artifactKey: Guid(e9bd32053141ee54ca6a1a4439c8c647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mushroom03.obj using Guid(e9bd32053141ee54ca6a1a4439c8c647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dc0b2863732571577df9ac476e8f69') in 0.031566 seconds 
+  Import took 0.034094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Imports/LowPolyFruit/ginger02.obj
+  artifactKey: Guid(fa1e03d6286fde844b5b255902808c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/ginger02.obj using Guid(fa1e03d6286fde844b5b255902808c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be3477602f9febada3a6a8fb3b1fac9') in 0.040804 seconds 
+  Import took 0.044947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Imports/LowPolyFruit/lime01.obj
+  artifactKey: Guid(308a6a326e559014ca6218b78166d265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lime01.obj using Guid(308a6a326e559014ca6218b78166d265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1eaab735bea4d11af43194ec7c5e876') in 0.032875 seconds 
+  Import took 0.035729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Imports/LowPolyFruit/clementine02.obj
+  artifactKey: Guid(073502308d3b6fa4ca91a959e6130f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/clementine02.obj using Guid(073502308d3b6fa4ca91a959e6130f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534d33867050626225411aa2e17a57e0') in 0.031800 seconds 
+  Import took 0.035955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Imports/LowPolyFruit/onion03.obj
+  artifactKey: Guid(077f3c39e7045294490c7f1e42d16ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion03.obj using Guid(077f3c39e7045294490c7f1e42d16ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eec0118962a5f14608655177c838a69') in 0.033281 seconds 
+  Import took 0.036623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Imports/LowPolyFruit/lettuce01.obj
+  artifactKey: Guid(92ec4ae9a92beae46a4c7522bc07e2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lettuce01.obj using Guid(92ec4ae9a92beae46a4c7522bc07e2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010e288afa1c3d11fa954b5dd6d8ce25') in 0.045647 seconds 
+  Import took 0.050695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Imports/LowPolyFruit/chives04.obj
+  artifactKey: Guid(2a243400262f76c4fbeee411ee49f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/chives04.obj using Guid(2a243400262f76c4fbeee411ee49f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f021d3a34e3feee8f43ae894c061d7f') in 0.037610 seconds 
+  Import took 0.042560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Imports/LowPolyFruit/cherry03.obj
+  artifactKey: Guid(0cef4cedb1767f84b82521c51bf607aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cherry03.obj using Guid(0cef4cedb1767f84b82521c51bf607aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e525e9c3407e9540924e0bcad5e6f9b') in 0.032724 seconds 
+  Import took 0.035710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Imports/LowPolyFruit/orange01.obj
+  artifactKey: Guid(84e8b7127d0f3984caf01dc0657e94dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/orange01.obj using Guid(84e8b7127d0f3984caf01dc0657e94dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0470cc661c35c3ecaeb8762612876e6d') in 0.034282 seconds 
+  Import took 0.037200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Imports/LowPolyFruit/onion08.obj
+  artifactKey: Guid(b10901174f099fc4aafcceb8c71aef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion08.obj using Guid(b10901174f099fc4aafcceb8c71aef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944747a6d1882fbf83f3396be376f0a7') in 0.033412 seconds 
+  Import took 0.037426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Imports/LowPolyFruit/coconut02.obj
+  artifactKey: Guid(4b453cf9c48a0c54c94f384a69793fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/coconut02.obj using Guid(4b453cf9c48a0c54c94f384a69793fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cf91b71415985b87a94dcb670d34c5') in 0.037633 seconds 
+  Import took 0.040070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Imports/LowPolyFruit/onion05.obj
+  artifactKey: Guid(a04219c773d084947bd4eaba3fbf4c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion05.obj using Guid(a04219c773d084947bd4eaba3fbf4c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18c1151ad6cc709753e55a05058d932') in 0.035558 seconds 
+  Import took 0.038513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Imports/LowPolyFruit/grapes01.obj
+  artifactKey: Guid(05c5a0776523f9c498d61202ca7783d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/grapes01.obj using Guid(05c5a0776523f9c498d61202ca7783d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad1f51e3ec0c7b463e246ace51e092c') in 0.038170 seconds 
+  Import took 0.042805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Imports/LowPolyFruit/passionfruit01.obj
+  artifactKey: Guid(cecd179142b578e4da6bc64d4f244ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/passionfruit01.obj using Guid(cecd179142b578e4da6bc64d4f244ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c3ec33088f9e80eca9c068af6dd761') in 0.046421 seconds 
+  Import took 0.049700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Imports/LowPolyFruit/kiwi01.obj
+  artifactKey: Guid(21280860932904644af6d5663bbe7526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/kiwi01.obj using Guid(21280860932904644af6d5663bbe7526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfdc59107b33558989c57a01a6637c5') in 0.034462 seconds 
+  Import took 0.037157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Imports/LowPolyFruit/leek01.obj
+  artifactKey: Guid(bca3510875545084eaf42971605fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/leek01.obj using Guid(bca3510875545084eaf42971605fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50151ff85556100524030ce7fb14a2c2') in 0.031996 seconds 
+  Import took 0.035572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Imports/LowPolyFruit/carrot02.obj
+  artifactKey: Guid(4ccc50c9ad62c60418608585c5e0d554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/carrot02.obj using Guid(4ccc50c9ad62c60418608585c5e0d554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c04952b416961136775100bec2e558e') in 0.028408 seconds 
+  Import took 0.032877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Imports/LowPolyFruit/lime02.obj
+  artifactKey: Guid(d0af4173626454c4a8bc413f1deaaf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/lime02.obj using Guid(d0af4173626454c4a8bc413f1deaaf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96967c73617c62a53a1ce551593a1cd') in 0.035209 seconds 
+  Import took 0.039945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Imports/LowPolyFruit/mango02.obj
+  artifactKey: Guid(d98c9614b94dc27438c1eac6a7b64660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mango02.obj using Guid(d98c9614b94dc27438c1eac6a7b64660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71168e51f9e55eb5d6a12280b8d152a6') in 0.032691 seconds 
+  Import took 0.036274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Imports/LowPolyFruit/cucumber02.obj
+  artifactKey: Guid(978fa4675518d6f41944c30e338b8b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cucumber02.obj using Guid(978fa4675518d6f41944c30e338b8b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923d45121295611965ac34e423c1b21f') in 0.033828 seconds 
+  Import took 0.036816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Imports/LowPolyFruit/mango01.obj
+  artifactKey: Guid(a2d3c1d6c78f15043aaf836729a26de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/mango01.obj using Guid(a2d3c1d6c78f15043aaf836729a26de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9446a4e701fd302f2aed049a12b80946') in 0.036827 seconds 
+  Import took 0.040974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Imports/LowPolyFruit/papaya01.obj
+  artifactKey: Guid(0999945c806f353429fbd3cd7c7233c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/papaya01.obj using Guid(0999945c806f353429fbd3cd7c7233c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87057e1edf3b6bb7a207e48b8845092') in 0.036847 seconds 
+  Import took 0.040371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Imports/LowPolyFruit/grapes03.obj
+  artifactKey: Guid(4b0630c2c70d9644ba8a02c70e34dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/grapes03.obj using Guid(4b0630c2c70d9644ba8a02c70e34dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9414ece2e1d42e7d66cec90884e9ad57') in 0.031063 seconds 
+  Import took 0.034869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Imports/LowPolyFruit/cherry01.obj
+  artifactKey: Guid(234ce45c9a8286f49972087524f12023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cherry01.obj using Guid(234ce45c9a8286f49972087524f12023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e115a354c1fa0bf3f15aa62d63360b') in 0.039302 seconds 
+  Import took 0.041817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Imports/LowPolyFruit/onion06.obj
+  artifactKey: Guid(25385bf348366f649acec8fc96c094af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion06.obj using Guid(25385bf348366f649acec8fc96c094af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495c5753a7139173dd91452098e3eda0') in 0.037619 seconds 
+  Import took 0.041289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Imports/LowPolyFruit/corn01.obj
+  artifactKey: Guid(6cc7647ef44305a488e4abbbc7a9246e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn01.obj using Guid(6cc7647ef44305a488e4abbbc7a9246e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b222bd4ef81166171c690edb7cec58') in 0.040025 seconds 
+  Import took 0.043056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Imports/LowPolyFruit/corn04.obj
+  artifactKey: Guid(0159388a71c639d4c87c2b46910fdf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn04.obj using Guid(0159388a71c639d4c87c2b46910fdf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b2228d06b0eabfb2f80373f11e94b2') in 0.047143 seconds 
+  Import took 0.050300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Imports/LowPolyFruit/onion07.obj
+  artifactKey: Guid(9dd1629bdb66dfb4c8d16d9bb8618a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion07.obj using Guid(9dd1629bdb66dfb4c8d16d9bb8618a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a76ac66113fad6ba6111746f6e2298e') in 0.036374 seconds 
+  Import took 0.040386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Imports/LowPolyFruit/papaya02.obj
+  artifactKey: Guid(23f471a5f3c9c7048b9f152d4e12b27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/papaya02.obj using Guid(23f471a5f3c9c7048b9f152d4e12b27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5e7afe1f17de95aa286986abda06c3') in 0.033940 seconds 
+  Import took 0.038247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Imports/LowPolyFruit/colortex.png
+  artifactKey: Guid(3fd513b0cf18aad459587ec12aeed5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/colortex.png using Guid(3fd513b0cf18aad459587ec12aeed5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18498fb746d8a91623352d7fb416aade') in 0.020638 seconds 
+  Import took 0.023855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Imports/LowPolyFruit/passionfruit03.obj
+  artifactKey: Guid(1d892bca366552c4da121160a8051cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/passionfruit03.obj using Guid(1d892bca366552c4da121160a8051cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edea6a6b4cbee4baaf6ef70744e51fbf') in 0.032923 seconds 
+  Import took 0.036516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Imports/LowPolyFruit/cucumber03.obj
+  artifactKey: Guid(61acfd178baaa4d409b1dfa2c4ebcdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/cucumber03.obj using Guid(61acfd178baaa4d409b1dfa2c4ebcdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0673aac587f9e92d513fa73dc1f384a0') in 0.039616 seconds 
+  Import took 0.044482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Imports/LowPolyFruit/coconut01.obj
+  artifactKey: Guid(411607698732427418c04f7f17891365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/coconut01.obj using Guid(411607698732427418c04f7f17891365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cca22fee0b4b4b365c2ac019c3c53c') in 0.043675 seconds 
+  Import took 0.046631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Imports/LowPolyFruit/onion04.obj
+  artifactKey: Guid(bd473c787e3485843a724785c486b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/onion04.obj using Guid(bd473c787e3485843a724785c486b4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169758a06f921727caf2d7ee8a935627') in 0.046192 seconds 
+  Import took 0.050214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Imports/LowPolyFruit/passionfruit04.obj
+  artifactKey: Guid(b285c9032470dc343a19259f1570b5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/passionfruit04.obj using Guid(b285c9032470dc343a19259f1570b5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa61793c2b44959c3d2a7b58ef4aa25f') in 0.047016 seconds 
+  Import took 0.051442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Imports/LowPolyFruit/corn05.obj
+  artifactKey: Guid(370cabcc5d493644dbda7699072ecd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/corn05.obj using Guid(370cabcc5d493644dbda7699072ecd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c68d65cc75f121c6a24418ac9d33a2') in 0.040100 seconds 
+  Import took 0.043903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Imports/LowPolyFruit/orange02.obj
+  artifactKey: Guid(d0a64d5e5e2930f43a7249a0446b8f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/orange02.obj using Guid(d0a64d5e5e2930f43a7249a0446b8f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a2f8c74efef0698496ee0234dd0dbd') in 0.072579 seconds 
+  Import took 0.076496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Imports/LowPolyFruit/hazelnut02.obj
+  artifactKey: Guid(4bdac5e9c01f7064c9beb7610ccf87e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/hazelnut02.obj using Guid(4bdac5e9c01f7064c9beb7610ccf87e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fc55e449e689e4d39f89d09ee150fb') in 0.038586 seconds 
+  Import took 0.041769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Imports/LowPolyFruit/garlic01.obj
+  artifactKey: Guid(2f0d074356e6d9a469ac458fea42f9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/garlic01.obj using Guid(2f0d074356e6d9a469ac458fea42f9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c4dc8a9f13e14f73384fc525010b78') in 0.033754 seconds 
+  Import took 0.036538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Imports/LowPolyFruit/leek03.obj
+  artifactKey: Guid(f5f927184986d8e46af55a91b4a84424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFruit/leek03.obj using Guid(f5f927184986d8e46af55a91b4a84424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff49210c6ff3da935b74ca4aa5f0576') in 0.034758 seconds 
+  Import took 0.037249 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003732 seconds.
+Registered in 0.005157 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.354 seconds
+- Completed reload, in  1.960 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1355ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1961ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1107ms)
-			LoadAssemblies (129ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1599ms)
+			LoadAssemblies (196ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (387ms)
+			SetupTypeCache (604ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (372ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (540ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.6 MB.
-System memory in use after: 68.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1909.
-Total: 3.086000 ms (FindLiveObjects: 0.162300 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.847100 ms  DeleteObjects: 0.022300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004478 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.569 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2571ms)
-		BeginReloadAssembly (230ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (2199ms)
-			LoadAssemblies (198ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (674ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (117ms)
-			SetupLoadedEditorAssemblies (853ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (694ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (398ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.6 MB.
-System memory in use after: 68.7 MB.
+System memory in use before: 71.6 MB.
+System memory in use after: 71.7 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1911.
-Total: 4.453400 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.059900 ms MarkObjects: 4.113300 ms  DeleteObjects: 0.030000 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1908.
+Total: 3.751300 ms (FindLiveObjects: 0.165800 ms CreateObjectMapping: 0.052400 ms MarkObjects: 3.506100 ms  DeleteObjects: 0.023700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
