@@ -6931,7 +6931,6 @@ GameObject:
   m_Component:
   - component: {fileID: 609190390}
   - component: {fileID: 609190389}
-  - component: {fileID: 609190391}
   m_Layer: 0
   m_Name: MenuController
   m_TagString: Untagged
@@ -6970,33 +6969,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &609190391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 609190388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bacc76a88d8d8a4b9368ba5d381dddd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  storeItems:
-  - {fileID: 11400000, guid: 0080a3868374661459342ca59bd8fd53, type: 2}
-  - {fileID: 11400000, guid: 27e11e9fb7dc7f2418195bf3e2ba368a, type: 2}
-  - {fileID: 11400000, guid: c1787c7e54ea9574b96e7cb55138998e, type: 2}
-  - {fileID: 11400000, guid: 8a3eb5f2a2df1114c8f59717401a8c13, type: 2}
-  - {fileID: 11400000, guid: 0dc4f0a67af329845b20ca4f4e3f8fe6, type: 2}
-  - {fileID: 11400000, guid: 23bbaf74d4e2f374585384b55b9e1a5b, type: 2}
-  - {fileID: 11400000, guid: 37b1967b32a7b7a4989bcddcef2bb714, type: 2}
-  - {fileID: 11400000, guid: e1866a4bcc2cbb447aef9923ec2ba183, type: 2}
-  - {fileID: 11400000, guid: 85682c91b59ff8246a8ac199edd4914f, type: 2}
-  - {fileID: 11400000, guid: d8f717c8e8f043e4b9bbbf2aa52db2c5, type: 2}
-  - {fileID: 11400000, guid: 0b36db7271b52304b99d545a7304247b, type: 2}
-  - {fileID: 11400000, guid: 56d9db36d6431f843aa8942bcbcb1c49, type: 2}
-  - {fileID: 11400000, guid: be81d1f803638a441b4bb2030991949e, type: 2}
-  - {fileID: 11400000, guid: 3f81a6edfed34fa43bfe98069494fb06, type: 2}
 --- !u!1 &657341501
 GameObject:
   m_ObjectHideFlags: 0
@@ -13380,6 +13352,7 @@ GameObject:
   - component: {fileID: 1334610268}
   - component: {fileID: 1334610267}
   - component: {fileID: 1334610269}
+  - component: {fileID: 1334610270}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -13428,6 +13401,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTrailData: {fileID: 0}
   trail: {fileID: 1643472552}
+--- !u!114 &1334610270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334610266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bacc76a88d8d8a4b9368ba5d381dddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storeItems:
+  - {fileID: 11400000, guid: 0080a3868374661459342ca59bd8fd53, type: 2}
+  - {fileID: 11400000, guid: 27e11e9fb7dc7f2418195bf3e2ba368a, type: 2}
+  - {fileID: 11400000, guid: c1787c7e54ea9574b96e7cb55138998e, type: 2}
+  - {fileID: 11400000, guid: 8a3eb5f2a2df1114c8f59717401a8c13, type: 2}
+  - {fileID: 11400000, guid: 0dc4f0a67af329845b20ca4f4e3f8fe6, type: 2}
+  - {fileID: 11400000, guid: 23bbaf74d4e2f374585384b55b9e1a5b, type: 2}
+  - {fileID: 11400000, guid: 37b1967b32a7b7a4989bcddcef2bb714, type: 2}
+  - {fileID: 11400000, guid: e1866a4bcc2cbb447aef9923ec2ba183, type: 2}
+  - {fileID: 11400000, guid: 85682c91b59ff8246a8ac199edd4914f, type: 2}
+  - {fileID: 11400000, guid: d8f717c8e8f043e4b9bbbf2aa52db2c5, type: 2}
+  - {fileID: 11400000, guid: 0b36db7271b52304b99d545a7304247b, type: 2}
+  - {fileID: 11400000, guid: 56d9db36d6431f843aa8942bcbcb1c49, type: 2}
+  - {fileID: 11400000, guid: be81d1f803638a441b4bb2030991949e, type: 2}
+  - {fileID: 11400000, guid: 3f81a6edfed34fa43bfe98069494fb06, type: 2}
 --- !u!1 &1351277666
 GameObject:
   m_ObjectHideFlags: 0
