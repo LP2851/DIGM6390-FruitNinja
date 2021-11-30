@@ -11,6 +11,8 @@ public class PlayerDataImporter : MonoBehaviour
     public int amountOfMoney => playerData.amountOfMoney;
     public List<string> ownedItems => playerData.ownedItems;
 
+    public int highScore => playerData.highScore;
+    
     //[SerializeField] 
     private PlayerData playerData;
     
@@ -84,6 +86,11 @@ public class PlayerDataImporter : MonoBehaviour
     {
         playerData.GiveMoney(amount);
     }
+
+    public void SetNewHighScore(int score)
+    {
+        playerData.SetNewHighScore(score);
+    }
     
 
 
@@ -91,6 +98,7 @@ public class PlayerDataImporter : MonoBehaviour
     private class PlayerData
     {
         public int amountOfMoney { get; private set; }
+        public int highScore { get; private set; }
         public string currentPlayerTrail { get; private set; }
         
         public List<string> ownedItems = new List<string>();
@@ -99,7 +107,7 @@ public class PlayerDataImporter : MonoBehaviour
         {
             amountOfMoney = PlayerPrefs.GetInt("playerMoney", 0);
             currentPlayerTrail = PlayerPrefs.GetString("playerTrail", "default_trail");
-            
+            highScore = PlayerPrefs.GetInt("highScore", 0);
             ownedItems = PlayerPrefs.GetString("ownedItems", "default_trail").Split(',').ToList();
             if (ownedItems.Count == 1)
             {
@@ -130,6 +138,13 @@ public class PlayerDataImporter : MonoBehaviour
         {
             currentPlayerTrail = trailCode;
             PlayerPrefs.SetString("playerTrail", trailCode);
+            PlayerPrefs.Save();
+        }
+
+        public void SetNewHighScore(int score)
+        {
+            highScore = score;
+            PlayerPrefs.SetInt("highScore", highScore);
             PlayerPrefs.Save();
         }
         
