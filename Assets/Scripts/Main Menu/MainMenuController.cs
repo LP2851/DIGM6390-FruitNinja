@@ -5,8 +5,14 @@ using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Controller for the MainMenu scene
+/// </summary>
 public class MainMenuController : MonoBehaviour
 {
+    /// <summary>
+    /// All of the state the main menu scene can be in
+    /// </summary>
     [Serializable]
     public enum MainMenuState
     {
@@ -22,16 +28,26 @@ public class MainMenuController : MonoBehaviour
     
     void Awake()
     {
+        // Buttons fly in
         mainMenuButtons.SetBool("isDisplay", true);
         Debug.Log("[MainMenuController] :: The current state is " + currentState);
     }
     
+    /// <summary>
+    /// Used by buttons to change the next state. (Since buttons don't like IEnumerator methods).
+    /// </summary>
+    /// <param name="nextState">MAIN_MENU=0, PLAY=1, STORE=2, OPTIONS=3, CREDITS=4, QUIT=5</param>
     public void ChangeStateTo(int nextState)
     {
         MainMenuState next = (MainMenuState)nextState;
         StartCoroutine(nameof(ChangeState), next);
     }
 
+    /// <summary>
+    /// Coroutine for changing the state of the scene. 
+    /// </summary>
+    /// <param name="nextState">The next state of the scene</param>
+    /// <returns></returns>
     private IEnumerator ChangeState(MainMenuState nextState)
     {
         // Moving from old state
@@ -60,6 +76,8 @@ public class MainMenuController : MonoBehaviour
             // case MainMenuState.QUIT:
             //     break;
         }
+        
+        // Change current state to the next state.
         currentState = nextState;
         Debug.Log("[MainMenuController] :: The current state is " + currentState);
         

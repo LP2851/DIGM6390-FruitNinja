@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+/// <summary>
+/// Same as the NinjaPlayer class but without any code for in-game.
+/// </summary>
 [RequireComponent(typeof(PlayerDataImporter))]
 public class Player : MonoBehaviour
 {
     private Vector3 pos; //Position
-    
     
     void Start ()
     {
