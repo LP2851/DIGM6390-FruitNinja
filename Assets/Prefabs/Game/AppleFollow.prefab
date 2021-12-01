@@ -98,8 +98,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canResize: 1
-  deathResetsStreaks: 1
+  notHittingResetsStreaks: 0
+  looseLifeOnHit: 0
   splat: {fileID: 7536403737284012476, guid: 65d3af83ce17bfc46a42ab51aacfb58e, type: 3}
+  maxHealth: 1
+  currentHealth: 1
 --- !u!114 &242487202437701553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,5 +129,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40098ada0658865498d9c0af85a54b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doRotate: 1
-  doMoveTowards: 1
+  doRotate: 0
+  doMoveTowards: 0

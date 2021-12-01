@@ -8,6 +8,8 @@ public class Gravity : MonoBehaviour
     private float mass = 10.0f;
     public GameObject player;
     public float colliderRadius = 0.64f;
+
+    private bool collisionLastUpdate = false;
     
     public void ApplyForce(Vector3 force) {
         Vector3 a = force/mass;
@@ -29,10 +31,10 @@ public class Gravity : MonoBehaviour
     void FixedUpdate() {
         ApplyForce(gravity);
         UpdatePosition();
-        CheckCollisions();
+        CheckCollisionEnter();
     }
 
-    void CheckCollisions()
+    void CheckCollisionEnter()
     {
         
         float dist = Vector3.Distance(this.transform.position, player.transform.position);
@@ -40,8 +42,18 @@ public class Gravity : MonoBehaviour
 
         if (overlap < 0)
         {
-            GetComponent<Fruit2D>().Hit();
-            player.GetComponent<NinjaPlayer>().Score(CompareTag("Fruit"));
+            if (collisionLastUpdate)
+            {
+                GetComponent<Fruit2D>().Hit();
+                player.GetComponent<NinjaPlayer>().Score(CompareTag("Fruit"));
+            }
+            
+            
+            collisionLastUpdate = true;
+        }
+        else
+        {
+            collisionLastUpdate = false;
         }
     }
 }

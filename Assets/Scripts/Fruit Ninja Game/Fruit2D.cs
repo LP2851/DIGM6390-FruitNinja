@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,8 +11,18 @@ public class Fruit2D : MonoBehaviour
     public bool canResize;
     public bool notHittingResetsStreaks;
     public bool looseLifeOnHit;
-
+    
+    [Header("Death Effect")]
     public GameObject splat;
+
+    [Header("Health")] public int maxHealth = 1;
+    [SerializeField] private int currentHealth = 1;
+
+    private void Start()
+    {
+        currentHealth = maxHealth;
+    }
+
     void Update ()
     {
         //Set screen position
@@ -35,17 +46,19 @@ public class Fruit2D : MonoBehaviour
     
     public void Hit()
     {
-        //Destroy
-
-
+        currentHealth--;
         if (gameObject.tag == "Fruit")
         {
             GameObject g = Instantiate(splat, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
         } else 
         {
-            if(looseLifeOnHit) GameObject.FindWithTag("Player").GetComponent<NinjaPlayer>().playerLives--;
+            if(looseLifeOnHit) 
+                GameObject.FindWithTag("Player").GetComponent<NinjaPlayer>().playerLives--;
         }
-        Destroy(gameObject);
+
+        
+        if(currentHealth <= 0) 
+            Destroy(gameObject);
         
     }
 }
