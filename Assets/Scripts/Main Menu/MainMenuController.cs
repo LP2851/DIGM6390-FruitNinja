@@ -24,7 +24,10 @@ public class MainMenuController : MonoBehaviour
     public Animator mainMenuButtons;
     public GameObject background;
 
-    public GameObject store, options, credits;
+    public GameObject play, store, options, credits;
+
+
+    public PlayMenuController playMenuController;
     
     void Awake()
     {
@@ -59,8 +62,9 @@ public class MainMenuController : MonoBehaviour
                 //yield return new WaitUntil(() => (mainMenuButtons.GetCurrentAnimatorStateInfo(0).normalizedTime > 1));
                 yield return new WaitForSeconds(0.8f);
                 break;
-            // case MainMenuState.PLAY:
-            //     break;
+            case MainMenuState.PLAY:
+                play.SetActive(false);
+                break;
             case MainMenuState.STORE:
                 store.SetActive(false);
                 yield return new WaitForSeconds(0.1f);
@@ -91,7 +95,9 @@ public class MainMenuController : MonoBehaviour
                 yield return new WaitUntil(() => (mainMenuButtons.GetCurrentAnimatorStateInfo(0).normalizedTime > 1));
                 break;
             case MainMenuState.PLAY:
-                SceneManager.LoadScene("NinjaGame");
+                //SceneManager.LoadScene("NinjaGame");
+                play.SetActive(true);
+                playMenuController.ChangeState(1);
                 break;
             case MainMenuState.STORE:
                 store.SetActive(true);
