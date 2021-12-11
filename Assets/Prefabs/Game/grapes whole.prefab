@@ -101,6 +101,7 @@ MonoBehaviour:
   notHittingResetsStreaks: 0
   looseLifeOnHit: 0
   splat: {fileID: 7536403737284012476, guid: 65d3af83ce17bfc46a42ab51aacfb58e, type: 3}
+  sliced: {fileID: 8924012779338332661, guid: 52f5d99ac45f97945aaa1d19f8ff61b5, type: 3}
   maxHealth: 1
   currentHealth: 1
 --- !u!114 &761185472066621961

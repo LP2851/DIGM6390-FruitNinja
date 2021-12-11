@@ -688,8 +688,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnTime: 1
-  apple: {fileID: 242487202437701559, guid: 80be2c2e857a2de438b7741f708ac0b7, type: 3}
+  apple: {fileID: 3902694292064273499, guid: bbb2292eab768b44fb82855b2d9f559a, type: 3}
   bomb: {fileID: 1232043026403034899, guid: 1bf44b54b8b4d464d827e2d35337a1ba, type: 3}
+  orange: {fileID: 2655866518483204741, guid: 7be041ee792e3e64f896cbfc33aed90e, type: 3}
+  bananas: {fileID: 4598775103717418928, guid: 5ec671e64ee01fb48992f8e926166f01, type: 3}
+  blueApple: {fileID: 7694489645405892573, guid: e24ee958d94ab8d46b3688a7566d8a7f, type: 3}
+  grapes: {fileID: 697916020978668967, guid: 41ff4ddcba8745c49b475ceb9a4cc5a4, type: 3}
+  lemon: {fileID: 9214521259283869940, guid: ff6ca30fb668b9340af58f9e8872cc82, type: 3}
+  peach: {fileID: 7389784008231226336, guid: 0c055cfb1ca4ee940a5adfc762b84d44, type: 3}
+  pear: {fileID: 2028172784424912237, guid: fe3474bb0ace2a84bb414b415d69bad3, type: 3}
+  pinapple: {fileID: 248516792623845407, guid: 7ce15cdbcfa1142458a9b668f6e2179d, type: 3}
+  watermelon: {fileID: 1575449224542062139, guid: 59a16df166ae05b4b94f956c9309d1aa, type: 3}
   upForce: 110
   leftRightForce: 35
   maxX: -7
@@ -1708,6 +1717,15 @@ MonoBehaviour:
   spawnTime: 1
   apple: {fileID: 6632754387259554249, guid: a04bb0a5a3766bc4ab4ce4b24bacf1c1, type: 3}
   bomb: {fileID: 0}
+  orange: {fileID: 0}
+  bananas: {fileID: 0}
+  blueApple: {fileID: 0}
+  grapes: {fileID: 0}
+  lemon: {fileID: 0}
+  peach: {fileID: 0}
+  pear: {fileID: 0}
+  pinapple: {fileID: 0}
+  watermelon: {fileID: 0}
   upForce: 150
   leftRightForce: 40
   maxX: -7

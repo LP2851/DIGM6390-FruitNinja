@@ -11,10 +11,9 @@ public class Fruit2D : MonoBehaviour
     public bool canResize;
     public bool notHittingResetsStreaks;
     public bool looseLifeOnHit;
-    
     [Header("Death Effect")]
     public GameObject splat;
-
+    public GameObject sliced;
     [Header("Health")] public int maxHealth = 1;
     [SerializeField] private int currentHealth = 1;
 
@@ -49,6 +48,7 @@ public class Fruit2D : MonoBehaviour
         currentHealth--;
         if (gameObject.tag == "Fruit")
         {
+            GameObject s = Instantiate(sliced, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
             GameObject g = Instantiate(splat, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
         } else 
         {
