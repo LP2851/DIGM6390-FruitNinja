@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   abilityName: Shockwave
   code: ability_shockwave
-  description: When activated, a shockwave will be pulsed for 10 seconds which knocks
-    bombs aways from the player.
+  description: When activated, a shockwave will be pulsed for 10 seconds which destroys
+    bombs near the player.
   unlocked: 0
   inUse: 0
   duration: 10

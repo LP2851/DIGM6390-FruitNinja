@@ -64,26 +64,26 @@ public class NinjaPlayer : MonoBehaviour
         }
     }
     
-    // void OnTriggerEnter2D(Collider2D other)
-    // {
-    //     if (other.tag == "Fruit")
-    //     {
-    //         //write your code here
-    //         other.GetComponent<Fruit2D>().Hit();
-    //         Score(true);
-    //     } else if (other.tag == "Enemy")
-    //     {
-    //         other.GetComponent<Fruit2D>().Hit();
-    //         Score(false);
-    //         playerLives--;
-    //         if (playerLives == 0)
-    //         {
-    //             menuController.ChangeState(false);
-    //             spawner.SetActive(false);
-    //         }
-    //             
-    //     }
-    // }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Fruit")
+        {
+            //write your code here
+            other.GetComponent<Fruit2D>().Hit();
+            Score(true);
+        } else if (other.tag == "Enemy")
+        {
+            other.GetComponent<Fruit2D>().Hit();
+            Score(false);
+            playerLives--;
+            if (playerLives == 0)
+            {
+                menuController.ChangeState(false);
+                spawner.SetActive(false);
+            }
+                
+        }
+    }
 
 
     public void Score(bool isFruit)

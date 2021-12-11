@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -16,7 +16,7 @@ public abstract class Ability : MonoBehaviour
     #endregion
     
     private float countdown;
-    private bool isActive = false;
+    protected bool isActive = false;
 
     public void PlayerGotKill()
     {
@@ -51,6 +51,7 @@ public abstract class Ability : MonoBehaviour
             available = false;
             countdown = abilityData.duration;
             isActive = true;
+            RunAbility();
             return true;
         }
         else
@@ -60,9 +61,19 @@ public abstract class Ability : MonoBehaviour
 
     }
 
+    void Update()
+    {
+        UpdateCountdown();
+    }
+
     private void EndAbility()
     {
         // I dont know if I need this yet
     }
+
+    protected virtual void RunAbility()
+    {
+    }
+    
 
 }

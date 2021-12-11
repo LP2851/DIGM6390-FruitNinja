@@ -61,4 +61,20 @@ public class Fruit2D : MonoBehaviour
             Destroy(gameObject);
         
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag.Equals("Player"))
+        {
+            Hit();
+        }
+    }
+
+    public void ShockwaveHit()
+    {
+        if (tag.Equals("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }

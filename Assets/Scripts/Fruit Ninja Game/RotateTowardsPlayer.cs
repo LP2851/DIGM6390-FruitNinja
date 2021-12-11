@@ -34,6 +34,6 @@ public class RotateTowardsPlayer : MonoBehaviour
 
         // Move Towards- no interia
         if(doMoveTowards)
-            this.transform.Translate(transform.up * 2f * Time.deltaTime);
+            transform.Translate(transform.up * 2f * Time.deltaTime);
     }
 }
