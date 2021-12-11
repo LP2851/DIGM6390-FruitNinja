@@ -102,6 +102,7 @@ MonoBehaviour:
   looseLifeOnHit: 0
   splat: {fileID: 7536403737284012476, guid: 65d3af83ce17bfc46a42ab51aacfb58e, type: 3}
   sliced: {fileID: 3838594662056981260, guid: c2c4fccfbfb79b04c9704378c91340a4, type: 3}
+  splatColor: {r: 0.92941177, g: 0.19431074, b: 0.090196095, a: 0.9019608}
   maxHealth: 1
   currentHealth: 1
 --- !u!114 &9211757579281018052
