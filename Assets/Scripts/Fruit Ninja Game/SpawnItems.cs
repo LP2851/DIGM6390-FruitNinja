@@ -6,7 +6,7 @@ public class SpawnItems : MonoBehaviour
 {
 
     public float spawnTime=1; //Spawn Time
-    public GameObject apple, bomb;
+    public GameObject apple, bomb, orange, bananas, blueApple, grapes, lemon, peach, pear, pineapple, watermelon;
     public float upForce = 750; //Up force
     public float leftRightForce = 200; //Left and right force
     public float maxX = -7; //Max x spawn position
@@ -24,6 +24,9 @@ public class SpawnItems : MonoBehaviour
     }
     IEnumerator Spawn()
     {
+        int RandomOption;
+        RandomOption = Random.Range(1, 12);
+        
         //Wait spawnTime
         yield return new WaitForSeconds(spawnTime);
         //Spawn prefab is apple
@@ -35,6 +38,57 @@ public class SpawnItems : MonoBehaviour
             //you code here later in task 4
             prefab = bomb;
 
+        }
+        
+        
+        //changes the prefab to a random fruit
+        switch (RandomOption)
+        {
+            case 1:
+                prefab = bomb;
+                break;
+
+            case 2:
+                prefab = apple;
+                break;
+
+            case 3:
+                prefab = orange;
+                break;
+
+            case 4:
+                prefab = bananas;
+                break;
+
+            case 5:
+                prefab = blueApple;
+                break;
+
+            case 6:
+                prefab = grapes;
+                break;
+
+            case 7:
+                prefab = lemon;
+                break;
+
+            case 8:
+                prefab = peach;
+                break;
+
+            case 9:
+                prefab = pear;
+                break;
+            case 10:
+                prefab = pineapple;
+                break;
+
+            case 11:
+                prefab = watermelon;
+                break;
+
+            default:
+                break;
         }
         //Spawn prefab add random position
         GameObject go = Instantiate(prefab, new Vector3(Random.Range(minX
