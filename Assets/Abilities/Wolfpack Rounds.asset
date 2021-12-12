@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68d0da624abecb54988ba96e1a20af29, type: 3}
   m_Name: Wolfpack Rounds
   m_EditorClassIdentifier: 
-  abilityName: Name Pending 2
-  code: ability_name_pending_2
-  description: 'When activated, killing fruit will spawn small wolfpack rounds that
-    will attack nearby fruit.  '
+  abilityName: Small Seekers
+  code: ability_small_seekers
+  description: 'When activated, killing fruit will spawn small seekers that will
+    attack nearby fruit.  '
   unlocked: 1
   inUse: 0
   duration: 10
   cooldown: 90
-  chargeBarColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 0.5019608}
+  chargeBarColor: {r: 0.21411648, g: 1, b: 0.015686274, a: 0.5019608}
   unlockLevel: -1

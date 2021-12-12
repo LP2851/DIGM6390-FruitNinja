@@ -54,7 +54,7 @@ public class Fruit2D : MonoBehaviour
         {
             if (looseLifeOnHit)
             {
-                GameObject.FindWithTag("Player").GetComponent<NinjaPlayer>().playerLives--;
+                NinjaPlayer.instance.playerLives--;
                 GameObject g = Instantiate(splat, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
             }
                 
@@ -74,12 +74,17 @@ public class Fruit2D : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Called when fruit is hit by a shockwave
+    /// </summary>
     public void ShockwaveHit()
     {
-        if (tag.Equals("Enemy"))
+        if (tag.Equals("Enemy")) // if is bomb
         {
             Destroy(gameObject);
             GameObject g = Instantiate(splat, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
+            
+            // Less particles than with a normal explosion
             var main = g.GetComponent<ParticleSystem>().main;
             main.maxParticles = 100;
         }

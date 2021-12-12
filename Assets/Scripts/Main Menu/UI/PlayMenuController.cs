@@ -7,6 +7,9 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Controls the play menu
+/// </summary>
 public class PlayMenuController : MonoBehaviour
 {
     [Serializable]
@@ -33,11 +36,20 @@ public class PlayMenuController : MonoBehaviour
         ChangeState(1);
     }
 
+    /// <summary>
+    /// Called when a button is pressed
+    /// </summary>
+    /// <param name="nextState">The next state: 0 = MAIN_MENU, 1 = CHOICE, 2 = TUTORIAL, 3 = ABILITY_MENU</param>
     public void ChangeState(int nextState)
     {
         StartCoroutine(nameof(ChangeStateTo), nextState);
     }
 
+    /// <summary>
+    /// Changes to the next menu state
+    /// </summary>
+    /// <param name="nextState"></param>
+    /// <returns></returns>
     private IEnumerator ChangeStateTo(int nextState)
     {
         MenuState next = (MenuState)nextState;
@@ -84,11 +96,10 @@ public class PlayMenuController : MonoBehaviour
         }
     }
 
-    public void SelectAbility(int ability)
-    {
-        
-    }
-
+    /// <summary>
+    /// Starts the game
+    /// </summary>
+    /// <param name="isTutorial">Is the game in tutorial mode</param>
     public void StartGame(bool isTutorial)
     {
         //if(isTutorial) SceneManager

@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+/// <summary>
+/// Abstract class for creating abilities
+/// </summary>
 public abstract class Ability : MonoBehaviour
 {
     #region Inspector
-
+    
     [Header("Ability Details")] public AbilityDetails abilityData;
-
     [Header("Gameplay"), SerializeField] private float killDecreaseCooldownAmount = 1f;
-
     public bool available = false;
     public float countdown;
     public bool isActive = false;
-
+    
     #endregion
-
 
     #region Double Click Variables
 
@@ -32,11 +32,17 @@ public abstract class Ability : MonoBehaviour
         countdown = abilityData.cooldown;
     }
 
+    /// <summary>
+    /// Speeds up the ability charge countdown when the player gets a kill
+    /// </summary>
     public void PlayerGotKill()
     {
         if (!isActive) countdown -= killDecreaseCooldownAmount;
     }
 
+    /// <summary>
+    /// Called on Update(), updates the countdown and sets variables as needed - isActive, available.
+    /// </summary>
     void UpdateCountdown()
     {
         if (available) return;
@@ -57,6 +63,9 @@ public abstract class Ability : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Uses the ability
+    /// </summary>
     private void Use()
     {
         if (available)
@@ -68,6 +77,9 @@ public abstract class Ability : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Updates the countdown and checks if there has been a double click to activate the ability
+    /// </summary>
     void Update()
     {
         UpdateCountdown();
@@ -77,13 +89,24 @@ public abstract class Ability : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     private void EndAbility()
     {
         // I dont know if I need this yet
     }
 
+    /// <summary>
+    /// Abstract method that is called when the user has activated the ability (after double click) 
+    /// </summary>
     protected abstract void RunAbility();
 
+    
+    /// <summary>
+    /// Returns true if the user has double clicked
+    /// </summary>
+    /// <returns>True if the user has double clicked, otherwise false</returns>
     private bool CheckDoubleClick()
     {
         if (Time.time - lastClickTime <= DOUBLE_CLICK_TIME)

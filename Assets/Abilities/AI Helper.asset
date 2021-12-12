@@ -17,8 +17,8 @@ MonoBehaviour:
   description: When activated, a friendly ghost AI will assist you in chopping fruit
     for 10 seconds.
   unlocked: 1
-  inUse: 1
+  inUse: 0
   duration: 10
   cooldown: 60
-  chargeBarColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 0.5019608}
+  chargeBarColor: {r: 1, g: 0.015686274, b: 0.29809391, a: 0.5019608}
   unlockLevel: -1

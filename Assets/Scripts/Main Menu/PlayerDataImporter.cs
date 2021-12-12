@@ -37,6 +37,7 @@ public class PlayerDataImporter : MonoBehaviour
         foreach (StoreItem item in StoreData.instance.storeItems)
             IsCurrentTrail(item);
 
+        // Checks against each item to see what the ability of the player is
         foreach (AbilityDetails a in StoreData.instance.abilities)
         {
             if (playerData.currentAbility == a.code)
@@ -148,6 +149,10 @@ public class PlayerDataImporter : MonoBehaviour
         playerData.SetNewHighScore(score);
     }
 
+    /// <summary>
+    /// Sets the active ability to the passed ability
+    /// </summary>
+    /// <param name="ability">The new active ability</param>
     public void SetAbilityTo(AbilityDetails ability)
     {
         currentAbility.SetActive(false);
@@ -189,8 +194,9 @@ public class PlayerDataImporter : MonoBehaviour
                 PlayerPrefs.SetString("ownedItems", "default_trail");
                 SetCurrentTrail("default_trail");
             }
-
+            // Gets the code for the active ability
             currentAbility = PlayerPrefs.GetString("playerAbility", "ability_shockwave");
+            // If nothing is found in player prefs then set as shockwave
             if (currentAbility.Equals("ability_shockwave"))
             {
                 PlayerPrefs.SetString("playerAbility", "ability_shockwave");
@@ -246,6 +252,10 @@ public class PlayerDataImporter : MonoBehaviour
             PlayerPrefs.Save();
         }
 
+        /// <summary>
+        /// Sets the active ability 
+        /// </summary>
+        /// <param name="abilityCode">Code of the ability</param>
         public void SetAbility(string abilityCode)
         {
             currentAbility = abilityCode;

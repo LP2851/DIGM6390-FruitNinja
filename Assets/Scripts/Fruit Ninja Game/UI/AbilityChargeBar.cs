@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Handles the ability charge progress bar
+/// </summary>
 [RequireComponent(typeof(Slider))]
 public class AbilityChargeBar : MonoBehaviour
 {
@@ -13,6 +16,10 @@ public class AbilityChargeBar : MonoBehaviour
 
     private Ability ability;
     
+    /// <summary>
+    /// Links to the in-use ability script
+    /// </summary>
+    /// <param name="ability">Active ability attached to the player</param>
     public void SetAbility(Ability ability)
     {
         slider = GetComponent<Slider>();
@@ -25,8 +32,9 @@ public class AbilityChargeBar : MonoBehaviour
 
     void Update()
     {
+        // If not set yet do nothing
         if(ability == null) return;
-
+        
         if (ability.available)
         {
             text.text = "Ability " + ability.abilityData.abilityName + " is ready! Double click to use.";
@@ -36,9 +44,8 @@ public class AbilityChargeBar : MonoBehaviour
         }
         else
         {
-            
             slider.value = slider.maxValue - ability.countdown;
-
+            
             int val = (int)(slider.normalizedValue * 100);
             text.text = "Progress to " + ability.abilityData.abilityName + " Ability: " + val + "%";
         }

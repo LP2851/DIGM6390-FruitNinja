@@ -157,6 +157,9 @@ public class NinjaPlayer : MonoBehaviour
     }
 
 
+    /// <summary>
+    /// Clears all of the bombs on the screen 
+    /// </summary>
     void ClearAllBombs()
     {
         foreach (Fruit2D fruit in FindObjectsOfType<Fruit2D>())
