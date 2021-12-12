@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1232043026403034899
+--- !u!1 &2655866518483204741
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1232043026403034911}
-  - component: {fileID: 1232043026403034910}
-  - component: {fileID: 1232043026403034908}
-  - component: {fileID: 8968048354492413952}
-  - component: {fileID: 7389008928968972152}
+  - component: {fileID: 6516482666682488032}
+  - component: {fileID: 6700977248797663493}
+  - component: {fileID: 5859281778007009765}
+  - component: {fileID: 1183309015013620038}
+  - component: {fileID: 5235845854068139809}
   m_Layer: 0
-  m_Name: BombFollow
-  m_TagString: Enemy
+  m_Name: orange whole
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1232043026403034911
+--- !u!4 &6516482666682488032
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232043026403034899}
+  m_GameObject: {fileID: 2655866518483204741}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1232043026403034910
+--- !u!212 &6700977248797663493
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232043026403034899}
+  m_GameObject: {fileID: 2655866518483204741}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,43 +74,58 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5439bdf7e933bf947a97d9f73a777129, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 11bbc614e85f31440b3f033c0e649d9b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.28, y: 1.28}
+  m_Size: {x: 3.81, y: 3.34}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1232043026403034908
+--- !u!114 &5859281778007009765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232043026403034899}
+  m_GameObject: {fileID: 2655866518483204741}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05803a62f4b920f4fba5e46452512a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canResize: 0
+  canResize: 1
   notHittingResetsStreaks: 0
-  looseLifeOnHit: 1
+  looseLifeOnHit: 0
   splat: {fileID: 7536403737284012476, guid: 65d3af83ce17bfc46a42ab51aacfb58e, type: 3}
-  sliced: {fileID: 4716603774831242214, guid: 1dee6d8b085a2fa48a097f97e2c5d2b4, type: 3}
+  sliced: {fileID: 6086690416967748416, guid: 0365466718ba2c5459f9e4afe7a2d7a0, type: 3}
+  splatColor: {r: 1, g: 0.5921569, b: 0, a: 0}
   maxHealth: 1
   currentHealth: 1
---- !u!114 &8968048354492413952
+--- !u!114 &1183309015013620038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232043026403034899}
+  m_GameObject: {fileID: 2655866518483204741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40098ada0658865498d9c0af85a54b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doRotate: 0
+  doMoveTowards: 0
+--- !u!114 &5235845854068139809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2655866518483204741}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d380e4ca295f04c4496a10a7015e36ca, type: 3}
@@ -118,17 +133,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   colliderRadius: 0.64
---- !u!114 &7389008928968972152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232043026403034899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40098ada0658865498d9c0af85a54b6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doRotate: 0
-  doMoveTowards: 1
