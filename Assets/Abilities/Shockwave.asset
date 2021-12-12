@@ -16,8 +16,9 @@ MonoBehaviour:
   code: ability_shockwave
   description: When activated, a shockwave will be pulsed for 10 seconds which destroys
     bombs near the player.
-  unlocked: 0
+  unlocked: 1
   inUse: 0
   duration: 10
   cooldown: 30
+  chargeBarColor: {r: 0, g: 1, b: 1, a: 0.5019608}
   unlockLevel: -1

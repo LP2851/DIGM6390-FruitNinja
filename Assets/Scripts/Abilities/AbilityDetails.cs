@@ -10,13 +10,14 @@ public class AbilityDetails : ScriptableObject
 
     [TextArea] public string description;
     
-    [SerializeField] private bool unlocked, inUse;
+    public bool unlocked, inUse;
     [Tooltip("The duration (in seconds) of the ability when activated.")]
     public float duration = 10f;
     [Tooltip("The cooldown (in seconds) for the ability. Used at start of game and once " +
              "an ability is finished being used (after duration).")]
     public float cooldown;
 
+    [ColorUsage(true, false)] public Color chargeBarColor= Color.yellow;
     // Extension stuff
     [Header("Extension Stuff (Not Used Yet)"), SerializeField]
     private int unlockLevel = -1;

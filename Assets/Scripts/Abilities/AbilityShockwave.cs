@@ -8,16 +8,12 @@ public class AbilityShockwave : Ability
     public float timeBetweenShockwaves = 1f;
     public int numberOfShockwaves = 10;
 
-    [SerializeField] private GameObject shockwaveEffect;
-    
+    [Header("Shockwave"), SerializeField] private GameObject shockwaveEffect;
+
     [ContextMenu("Activate Ability: Shockwave")]
     protected override void RunAbility()
     {
-        if (available)
-        {
-            StartCoroutine(Shockwave());
-        }
-            
+        StartCoroutine(Shockwave());
     }
 
     private IEnumerator Shockwave()

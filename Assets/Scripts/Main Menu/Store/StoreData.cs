@@ -9,7 +9,11 @@ using UnityEngine;
 public class StoreData : MonoBehaviour
 {
     public static StoreData instance;
+    
+    [Header("Store Trail Items")]
     public StoreItem[] storeItems;
+
+    [Header("Ability Data")] public AbilityDetails[] abilities;
 
     private void Awake()
     {

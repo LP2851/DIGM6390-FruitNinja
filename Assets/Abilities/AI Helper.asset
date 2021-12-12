@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68d0da624abecb54988ba96e1a20af29, type: 3}
   m_Name: AI Helper
   m_EditorClassIdentifier: 
-  abilityName: Name Pending 1
-  code: ability_name_pending_1
-  description: When activated, an AI will assist you in chopping fruit for 10 seconds.
-  unlocked: 0
-  inUse: 0
+  abilityName: Ghostly Friend
+  code: ability_ghostly_friend
+  description: When activated, a friendly ghost AI will assist you in chopping fruit
+    for 10 seconds.
+  unlocked: 1
+  inUse: 1
   duration: 10
   cooldown: 60
+  chargeBarColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 0.5019608}
   unlockLevel: -1

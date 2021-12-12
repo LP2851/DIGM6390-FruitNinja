@@ -15,7 +15,7 @@ public class PlayerDataImporter : MonoBehaviour
     public int amountOfMoney => playerData.amountOfMoney;
     public List<string> ownedItems => playerData.ownedItems;
     public int highScore => playerData.highScore;
-    
+
     // Class that handles getting PlayerPrefs data
     private PlayerData playerData;
     
@@ -24,16 +24,31 @@ public class PlayerDataImporter : MonoBehaviour
     
     // Player's trail
     public GameObject trail;
+    
+    public AbilityDetails currentAbility;
 
     private void Start()
     {
         instance = this;
         playerData = new PlayerData();
         playerData.ImportData();
-        
+
         // Checks against each item to see if it is the trail the player has equipped.
         foreach (StoreItem item in StoreData.instance.storeItems)
             IsCurrentTrail(item);
+
+        foreach (AbilityDetails a in StoreData.instance.abilities)
+        {
+            if (playerData.currentAbility == a.code)
+            {
+                a.inUse = true;
+                currentAbility = a;
+            }
+            else
+            {
+                a.inUse = false;
+            }
+        }
     }
     
 
@@ -132,6 +147,15 @@ public class PlayerDataImporter : MonoBehaviour
     {
         playerData.SetNewHighScore(score);
     }
+
+    public void SetAbilityTo(AbilityDetails ability)
+    {
+        currentAbility.SetActive(false);
+        currentAbility = ability;
+        currentAbility.SetActive(true);
+
+        playerData.SetAbility(ability.code);
+    }
     
 
     /// <summary>
@@ -143,6 +167,8 @@ public class PlayerDataImporter : MonoBehaviour
         public int amountOfMoney { get; private set; }
         public int highScore { get; private set; }
         public string currentPlayerTrail { get; private set; }
+        
+        public string currentAbility { get; private set; }
         
         public List<string> ownedItems = new List<string>();
 
@@ -162,6 +188,12 @@ public class PlayerDataImporter : MonoBehaviour
             {
                 PlayerPrefs.SetString("ownedItems", "default_trail");
                 SetCurrentTrail("default_trail");
+            }
+
+            currentAbility = PlayerPrefs.GetString("playerAbility", "ability_shockwave");
+            if (currentAbility.Equals("ability_shockwave"))
+            {
+                PlayerPrefs.SetString("playerAbility", "ability_shockwave");
             }
             
             PlayerPrefs.Save();
@@ -211,6 +243,13 @@ public class PlayerDataImporter : MonoBehaviour
         {
             highScore = score;
             PlayerPrefs.SetInt("highScore", highScore);
+            PlayerPrefs.Save();
+        }
+
+        public void SetAbility(string abilityCode)
+        {
+            currentAbility = abilityCode;
+            PlayerPrefs.SetString("playerAbility", abilityCode);
             PlayerPrefs.Save();
         }
         

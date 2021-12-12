@@ -3,11 +3,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR;
 
 [RequireComponent(typeof(PlayerDataImporter))]
 public class NinjaPlayer : MonoBehaviour
 {
-    [SerializeField]
+
+    [Serializable]
+    struct AbilityDictionary
+    {
+        public AbilityDetails data;
+        public Ability abilityObject;
+    }
+    
+    
+    public static NinjaPlayer instance;
+    [SerializeField] private Ability ability;
+
+    [SerializeField] private AbilityDictionary[] abilityDictionary;
+    
+    
     private Vector3 pos; //Position
 
     [SerializeField] private InGameMenuController menuController;
@@ -22,12 +37,31 @@ public class NinjaPlayer : MonoBehaviour
     public Text text;
     void Start ()
     {
+        instance = this;
         //Set screen orientation to landscape
         Screen.orientation = ScreenOrientation.Landscape;
         //Set sleep timeout to never
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         ChangeText();
+        HandleGettingAbility();
     }
+
+    void HandleGettingAbility()
+    {
+        AbilityDetails a = PlayerDataImporter.instance.currentAbility;
+        foreach (AbilityDictionary dictEntry in abilityDictionary)
+        {
+
+            if (dictEntry.data == a)
+            {
+                ability = dictEntry.abilityObject;
+                dictEntry.abilityObject.gameObject.SetActive(true);
+                break;
+            }
+        }
+    }
+    
+    
     void Update () {
         if (playerLives <= 0)
         {
@@ -92,6 +126,7 @@ public class NinjaPlayer : MonoBehaviour
         {
             score += streak * streak;
             streak++;
+            ability.PlayerGotKill();
         }
         else
         {

@@ -11,6 +11,12 @@ public class SpawnItems : MonoBehaviour
     public float leftRightForce = 200; //Left and right force
     public float maxX = -7; //Max x spawn position
     public float minX = 7; //Min x spawn position
+    
+    public float sizeDecreaseStep = 0.05f;
+    public float minSize = 0.5f;
+
+    
+    
     void Start()
     {
         //Start the spawn update
@@ -30,10 +36,20 @@ public class SpawnItems : MonoBehaviour
             prefab = bomb;
 
         }
-        //Spawn prefab add randomc position
-        GameObject go = Instantiate(prefab,new Vector3(Random.Range(minX
-            ,maxX + 1),transform.position.y, 0f),Quaternion.Euler(0,0, Random.Range (-
-            90F, 90F))) as GameObject;
+        //Spawn prefab add random position
+        GameObject go = Instantiate(prefab, new Vector3(Random.Range(minX
+            , maxX + 1), transform.position.y, 0f), Quaternion.Euler(0, 0, Random.Range(-
+            90F, 90F)));
+        
+        if (go.GetComponent<Fruit2D>().canResize)
+        {
+            float streak = NinjaPlayer.instance.streak;
+            float size = (1.0f - ((streak-1) * sizeDecreaseStep));
+            size = (size < minSize) ? minSize : size;
+            go.transform.localScale = new Vector3(size, size, size);
+        }
+        
+        
         //If x position is over 0 go left
         if (go.transform.position.x > 0)
         {

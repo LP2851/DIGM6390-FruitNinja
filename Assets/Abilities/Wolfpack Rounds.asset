@@ -16,8 +16,9 @@ MonoBehaviour:
   code: ability_name_pending_2
   description: 'When activated, killing fruit will spawn small wolfpack rounds that
     will attack nearby fruit.  '
-  unlocked: 0
+  unlocked: 1
   inUse: 0
   duration: 10
   cooldown: 90
+  chargeBarColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 0.5019608}
   unlockLevel: -1

@@ -32,7 +32,7 @@ public class Fruit2D : MonoBehaviour
         {
             //Destroy
             if(notHittingResetsStreaks)
-                GameObject.FindWithTag("Player").GetComponent<NinjaPlayer>().ResetStreak();
+                NinjaPlayer.instance.ResetStreak();
             Destroy(gameObject);
         }
         //If we cant die and are on the screen
@@ -52,8 +52,12 @@ public class Fruit2D : MonoBehaviour
             GameObject g = Instantiate(splat, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
         } else 
         {
-            if(looseLifeOnHit) 
+            if (looseLifeOnHit)
+            {
                 GameObject.FindWithTag("Player").GetComponent<NinjaPlayer>().playerLives--;
+                GameObject g = Instantiate(splat, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
+            }
+                
         }
 
         
@@ -75,6 +79,9 @@ public class Fruit2D : MonoBehaviour
         if (tag.Equals("Enemy"))
         {
             Destroy(gameObject);
+            GameObject g = Instantiate(splat, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
+            var main = g.GetComponent<ParticleSystem>().main;
+            main.maxParticles = 100;
         }
     }
 }

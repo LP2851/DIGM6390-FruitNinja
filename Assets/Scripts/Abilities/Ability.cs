@@ -1,4 +1,4 @@
-    using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -6,17 +6,31 @@ using UnityEngine.UIElements;
 public abstract class Ability : MonoBehaviour
 {
     #region Inspector
+
     [Header("Ability Details")] public AbilityDetails abilityData;
 
-    [Header("Gameplay"), SerializeField] 
-    private float killDecreaseCooldownAmount = 1f;
+    [Header("Gameplay"), SerializeField] private float killDecreaseCooldownAmount = 1f;
 
     public bool available = false;
-    
+    public float countdown;
+    public bool isActive = false;
+
     #endregion
-    
-    private float countdown;
-    protected bool isActive = false;
+
+
+    #region Double Click Variables
+
+    private float lastClickTime;
+    private const float DOUBLE_CLICK_TIME = 0.2f;
+
+    #endregion
+
+    void Awake()
+    {
+        AbilityChargeBar chargeBar = FindObjectOfType<AbilityChargeBar>();
+        chargeBar.SetAbility(this);
+        countdown = abilityData.cooldown;
+    }
 
     public void PlayerGotKill()
     {
@@ -26,11 +40,11 @@ public abstract class Ability : MonoBehaviour
     void UpdateCountdown()
     {
         if (available) return;
-        
+
         countdown -= Time.deltaTime;
-        
+
         if (!(countdown <= 0f)) return;
-        
+
         if (isActive)
         {
             isActive = false;
@@ -41,10 +55,9 @@ public abstract class Ability : MonoBehaviour
         {
             available = true;
         }
-
     }
 
-    protected bool Use()
+    private void Use()
     {
         if (available)
         {
@@ -52,18 +65,16 @@ public abstract class Ability : MonoBehaviour
             countdown = abilityData.duration;
             isActive = true;
             RunAbility();
-            return true;
         }
-        else
-        {
-            return false;
-        }
-
     }
 
     void Update()
     {
         UpdateCountdown();
+        if (Input.GetMouseButtonDown(0) && CheckDoubleClick())
+        {
+            Use();
+        }
     }
 
     private void EndAbility()
@@ -71,9 +82,17 @@ public abstract class Ability : MonoBehaviour
         // I dont know if I need this yet
     }
 
-    protected virtual void RunAbility()
-    {
-    }
-    
+    protected abstract void RunAbility();
 
+    private bool CheckDoubleClick()
+    {
+        if (Time.time - lastClickTime <= DOUBLE_CLICK_TIME)
+        {
+            lastClickTime = Time.time;
+            return true;
+        }
+
+        lastClickTime = Time.time;
+        return false;
+    }
 }
