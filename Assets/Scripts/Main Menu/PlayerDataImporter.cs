@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Class that handles the players data
@@ -129,6 +130,7 @@ public class PlayerDataImporter : MonoBehaviour
         PlayerPrefs.DeleteAll();
         playerData = new PlayerData();
         playerData.ImportData();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
     /// <summary>
