@@ -28,6 +28,8 @@ public class NinjaPlayer : MonoBehaviour
 
     [SerializeField] private InGameMenuController menuController;
     [SerializeField] private GameObject spawner;
+    public AudioSource slashSound;
+    public AudioSource bombSound;
 
     private int score = 0;
 
@@ -109,10 +111,12 @@ public class NinjaPlayer : MonoBehaviour
         if (other.tag == "Fruit")
         {
             //write your code here
+            slashSound.Play(0); //play fruit splat sound
             other.GetComponent<Fruit2D>().Hit();
             Score(true);
         } else if (other.tag == "Enemy")
         {
+            bombSound.Play(0); //play bomb explosion sound
             other.GetComponent<Fruit2D>().Hit();
             Score(false);
             //playerLives--;
