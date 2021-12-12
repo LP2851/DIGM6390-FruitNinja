@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NinjaGame.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/TutorialGame.unity
+    guid: 31a47112f027eb843a32cf295b94e781
   m_configObjects: {}

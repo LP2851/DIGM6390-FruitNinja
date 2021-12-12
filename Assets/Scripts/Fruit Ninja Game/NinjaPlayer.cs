@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.XR;
 
@@ -18,7 +19,7 @@ public class NinjaPlayer : MonoBehaviour
     
     
     public static NinjaPlayer instance;
-    [SerializeField] private Ability ability;
+    public Ability ability;
 
     [SerializeField] private AbilityDictionary[] abilityDictionary;
     
@@ -43,10 +44,15 @@ public class NinjaPlayer : MonoBehaviour
         //Set sleep timeout to never
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         ChangeText();
-        HandleGettingAbility();
+        if (!SceneManager.GetActiveScene().name.Contains("Tutorial"))
+        {
+            HandleGettingAbility();
+        }
+        
+        
     }
 
-    void HandleGettingAbility()
+    public void HandleGettingAbility()
     {
         AbilityDetails a = PlayerDataImporter.instance.currentAbility;
         foreach (AbilityDictionary dictEntry in abilityDictionary)

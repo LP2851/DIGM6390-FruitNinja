@@ -102,8 +102,7 @@ public class PlayMenuController : MonoBehaviour
     /// <param name="isTutorial">Is the game in tutorial mode</param>
     public void StartGame(bool isTutorial)
     {
-        //if(isTutorial) SceneManager
-        // else
-        SceneManager.LoadScene("NinjaGame");
+        if (isTutorial) SceneManager.LoadScene("TutorialGame");
+        else SceneManager.LoadScene("NinjaGame");
     }
 }
