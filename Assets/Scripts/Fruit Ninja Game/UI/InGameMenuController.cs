@@ -20,7 +20,7 @@ public class InGameMenuController : MonoBehaviour
     [SerializeField] private MenuState currentState = MenuState.PLAYING;
     
     [Space, SerializeField] private GameObject gameOverScreen;
-    [SerializeField] private GameObject abilitySlider;
+    [SerializeField] private GameObject abilitySlider, healthBar;
     [SerializeField] private Text playerScoreText, highScoreText, coinsEarnedText, playerCoinsText;
     
     [Space, SerializeField, Range(0f, 1f)] private float scoreToCoinsMultiplier = 0.1f;
@@ -68,6 +68,7 @@ public class InGameMenuController : MonoBehaviour
     {
         abilitySlider.SetActive(false);
         gameOverScreen.SetActive(true);
+        healthBar.SetActive(false);
 
         // Getting important values
         int score = player.GetScore();

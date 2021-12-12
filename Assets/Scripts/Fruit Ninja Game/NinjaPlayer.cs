@@ -67,7 +67,7 @@ public class NinjaPlayer : MonoBehaviour
         {
             menuController.ChangeState(false); 
             spawner.SetActive(false);
-            
+            ClearAllBombs();
         }
         
         //If the game is running on an iPhone device
@@ -109,7 +109,8 @@ public class NinjaPlayer : MonoBehaviour
         {
             other.GetComponent<Fruit2D>().Hit();
             Score(false);
-            playerLives--;
+            //playerLives--;
+            FindObjectOfType<HealthBarController>().UpdateHealthBar(true);
             if (playerLives == 0)
             {
                 menuController.ChangeState(false);
@@ -153,5 +154,14 @@ public class NinjaPlayer : MonoBehaviour
     public int GetScore()
     {
         return score;
+    }
+
+
+    void ClearAllBombs()
+    {
+        foreach (Fruit2D fruit in FindObjectsOfType<Fruit2D>())
+        {
+            fruit.ShockwaveHit();
+        }
     }
 }
