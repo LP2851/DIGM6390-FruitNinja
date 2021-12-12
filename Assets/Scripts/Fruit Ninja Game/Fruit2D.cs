@@ -52,7 +52,7 @@ public class Fruit2D : MonoBehaviour
             GameObject s = Instantiate(sliced, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
             
             GameObject g = Instantiate(splat, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
-            g.GetComponent<Renderer>().material.color = splatColor;
+            g.GetComponent<SpriteRenderer>().color = splatColor;
         } else 
         {
             if(looseLifeOnHit) 

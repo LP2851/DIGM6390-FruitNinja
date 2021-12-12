@@ -42,60 +42,48 @@ public class SpawnItemsGravity : MonoBehaviour
             {
                 case 1:
                     prefab = bomb;
-                    System.Diagnostics.Debug.WriteLine("bomb");
                     break;
 
                 case 2:
                     prefab = apple;
-                    System.Diagnostics.Debug.WriteLine("apple");
                     break;
 
                 case 3:
                     prefab = orange;
-                    System.Diagnostics.Debug.WriteLine("orange");
                     break;
 
                 case 4:
                     prefab = bananas;
-                    System.Diagnostics.Debug.WriteLine("bananas");
                     break;
 
                 case 5:
                     prefab = blueApple;
-                    System.Diagnostics.Debug.WriteLine("blueapple");
                     break;
 
                 case 6:
                     prefab = grapes;
-                    System.Diagnostics.Debug.WriteLine("grapes");
                     break;
 
                 case 7:
                     prefab = lemon;
-                    System.Diagnostics.Debug.WriteLine("lemon");
                     break;
 
                 case 8:
                     prefab = peach;
-                    System.Diagnostics.Debug.WriteLine("peach");
                     break;
 
                 case 9:
                     prefab = pear;
-                    System.Diagnostics.Debug.WriteLine("pear");
                     break;
                 case 10:
                     prefab = pinapple;
-                    System.Diagnostics.Debug.WriteLine("pineapple");
                     break;
 
                 case 11:
                     prefab = watermelon;
-                    System.Diagnostics.Debug.WriteLine("watermelon");
                     break;
 
                 default:
-                    System.Diagnostics.Debug.WriteLine("nothing");
                     break;
             }
 
