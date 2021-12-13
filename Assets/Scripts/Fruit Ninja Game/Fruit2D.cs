@@ -49,8 +49,12 @@ public class Fruit2D : MonoBehaviour
         currentHealth--;
         if (gameObject.tag == "Fruit")
         {
-            GameObject s = Instantiate(sliced, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
-            s.transform.localScale = transform.localScale;
+            if (currentHealth == 0)
+            {
+                GameObject s = Instantiate(sliced, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
+                s.transform.localScale = transform.localScale;
+            }
+            
             GameObject g = Instantiate(splat, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1), transform.rotation);
             g.GetComponent<SpriteRenderer>().color = splatColor;
         } else 

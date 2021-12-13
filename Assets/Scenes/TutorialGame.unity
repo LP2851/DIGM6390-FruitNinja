@@ -3351,7 +3351,7 @@ MonoBehaviour:
   maxX: -7
   minX: 7
   basicFruit: {fileID: 1300208212084900007, guid: 65ac9c1e670cefd41bcfb803450a5b61, type: 3}
-  strongerFruit: {fileID: 0}
+  strongerFruit: {fileID: 1246526276028050893, guid: 6cebf79afc112e347a5d1ddcb13b33cd, type: 3}
   bomb: {fileID: 1232043026403034899, guid: 6b94a70289b8e05479a59bb3addb1a48, type: 3}
   currentState: 0
   shockwaveAbility: {fileID: 11400000, guid: d5a85debac69a0242aa0f3cc8d8114e7, type: 2}

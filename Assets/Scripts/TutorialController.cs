@@ -52,6 +52,9 @@ public class TutorialController : MonoBehaviour
             case TutorialState.SLICING_BASIC:
                 StateSlicingBasic();
                 break;
+            case TutorialState.SLICING_STRONGER:
+                StateSlicingAdvanced();
+                break;
             case TutorialState.BOMBS_AND_HEALTH:
                 StateBombsAndHealth();
                 break;
@@ -98,8 +101,29 @@ public class TutorialController : MonoBehaviour
         if (currentFruit == null)
         {
             Debug.Log("COMPLETED TUTORIAL: " + currentState);
-            currentState = TutorialState.BOMBS_AND_HEALTH;
+            currentState = TutorialState.SLICING_STRONGER;
             slicingBasicText.SetActive(false);
+            slicingAdvancedText.SetActive(true);
+            // currentState = TutorialState.SLICING_ADVANCED;
+            hasSpawnedFruit = false;
+
+        }
+    }
+    
+    void StateSlicingAdvanced()
+    {
+        if (!hasSpawnedFruit)
+        {
+            SpawnItem(strongerFruit);
+            hasSpawnedFruit = true;
+            return;
+        }
+
+        if (currentFruit == null)
+        {
+            Debug.Log("COMPLETED TUTORIAL: " + currentState);
+            currentState = TutorialState.BOMBS_AND_HEALTH;
+            slicingAdvancedText.SetActive(false);
             bombsAndHealthText.SetActive(true);
             // currentState = TutorialState.SLICING_ADVANCED;
             hasSpawnedFruit = false;
